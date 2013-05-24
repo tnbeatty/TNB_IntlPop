@@ -14,12 +14,12 @@ function LaunchCtrl($scope, $http) {
 		$scope.countries = data;
 	});
 
-	$scope.selectedCountry = {
-		"countryId" : 900
-	};
+	// Default selection values
+	$scope.selectedCountry = {"countryId" : 900};
+	$scope.query = ""; 
 
 	$scope.selectById = function(id) {
-		console.log('Fcn Call');
+		$scope.query = "";
 		$scope.selectedCountry.countryId = id;
 	};
 }
