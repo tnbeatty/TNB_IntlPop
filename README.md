@@ -14,7 +14,29 @@ Code Structure
 
 Although the app is relatively simple, we use some of the basic features of Angular JS and a straightforward directory system to give the code some structure. Ultimately, this should be tremendously helpful as we add features and as other programmers continue to contribute to the development of IntlPop!.
 
-###
+###/api
+
+This folder contains any "internal api" files - data files, country lists, GeoJSON, etc. Basically, any data that needs to be read into the simulator should be dropped in this directory.
+
+###/img
+
+Any images used on the site should be stored in this directory. They should be appropriately named for their function and the number of images should be very small. With lots of data and simulating going on, we don't need to slow things down with big images.
+
+###/js
+
+Javascripts go here. There are seperate folders for angular, foundation, and other third party javascript files. The controller file for the Angular MVC structure also goes here, along with app.js, which does the url routing.
+
+###/partials
+
+Views to be rendered within the index.html layout go in this directory. They're HTML files and should contain the code that needs to go in the place of the `<div ng-view></div>` code in /index.html.
+
+###/sass
+
+Contains all of the editable SASS `.scss` stylesheets. The actual CSS is generated from these files and placed in another directory. 
+
+###/stylesheets
+
+Don't edit anything in there... it's generated directly from the files in the SASS directory and any changes you make will be overwritten.
 
 Developer Toolkit
 ---
