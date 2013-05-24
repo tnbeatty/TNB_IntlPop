@@ -9,25 +9,32 @@
 * with Zurb Foundation or other third party stylesheets.
 * CSS classes and ID's have `ip` prefix to prevent conflicts.
 */
-/* global styles */
-/* footer styles */
-/* line 19, ../sass/styles.scss */
+/* global */
+/* country selection form */
+/* line 17, ../sass/styles.scss */
+#ip-simbutton {
+  margin: 0px;
+  float: right;
+}
+
+/* footer */
+/* line 26, ../sass/styles.scss */
 footer {
   padding-bottom: 10px;
   color: #aaaaaa;
 }
-/* line 22, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
 footer a {
   color: #aaaaaa;
   border-bottom: dashed 1px;
 }
-/* line 26, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 footer a:hover {
   color: #9d9d9d;
   border-bottom: dashed 1px;
 }
 
-/* line 32, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .ip-f-logo {
   filter: gray;
   -webkit-filter: grayscale(1);

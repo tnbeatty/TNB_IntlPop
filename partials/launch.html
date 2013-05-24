@@ -1,3 +1,25 @@
 <div class="row">
-	
+	<div class="large-8 columns">
+		<p>{{selectedCountry}}</p>
+		<a ng-click="selectById(901)" class="button small radius">Select Test</a>
+	</div>
+
+	<div class="large-4 columns">
+
+		<form>
+			<fieldset>
+				<legend>Select a Country</legend>
+
+				<input type="text" placeholder="search for a country" ng-model="query" />
+				<select ng-model="orderProp">
+					<option DISABLED value="">-- Sort Criteria --</option>
+					<option value="alias">Alphabetical</option>
+					<option value="id">Country Code</option>
+				</select>
+				<select size="20" ng-model="selectedCountry.countryId" ng-options="c.id as c.alias for c in countries | filter:query | orderBy:orderProp"></select>
+				<a id="ip-simbutton" onClick="console.log('Launching new simulation with country: ' + {{ selectedCountry.countryId }})" class="button small radius">Simulate!</a>
+			</fieldset>
+		</form>
+
+	</div>
 </div>

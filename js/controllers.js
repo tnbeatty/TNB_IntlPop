@@ -10,7 +10,18 @@
 
 /* Controllers */
 function LaunchCtrl($scope, $http) {
-	$scope.sayHello = "Hello World!";
+	$http.get('api/countrylist.json').success(function(data) {
+		$scope.countries = data;
+	});
+
+	$scope.selectedCountry = {
+		"countryId" : 900
+	};
+
+	$scope.selectById = function(id) {
+		console.log('Fcn Call');
+		$scope.selectedCountry.countryId = id;
+	};
 }
 
 function HelpCtrl($scope, $http) {

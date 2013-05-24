@@ -10,9 +10,16 @@
 * CSS classes and ID's have `ip` prefix to prevent conflicts.
 */
 
-/* global styles */
+/* global */
 
-/* footer styles */
+/* country selection form */
+
+#ip-simbutton {
+	margin: 0px;
+	float: right;
+}
+
+/* footer */
 
 $footer-text-color: #aaa;
 

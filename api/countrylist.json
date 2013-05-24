@@ -1,1162 +1,1162 @@
 [{
-		"alias": "World",
 		"filename": "2010_900.js",
+		"id": 900,
 		"name": "WORLD",
-		"id": "900"
+		"alias": "WORLD"
 	}, {
-		"alias": "More developed regions",
 		"filename": "2010_901.js",
+		"id": 901,
 		"name": "More developed regions",
-		"id": "901"
+		"alias": "More developed regions"
 	}, {
-		"alias": "Less developed regions",
 		"filename": "2010_902.js",
+		"id": 902,
 		"name": "Less developed regions",
-		"id": "902"
+		"alias": "Less developed regions"
 	}, {
-		"alias": "Least developed countries",
 		"filename": "2010_941.js",
+		"id": 941,
 		"name": "Least developed countries",
-		"id": "941"
+		"alias": "Least developed countries"
 	}, {
-		"alias": "Less developed regions, excluding least developed countries",
 		"filename": "2010_934.js",
+		"id": 934,
 		"name": "Less developed regions, excluding least developed countries",
-		"id": "934"
+		"alias": "Less developed regions, excluding least developed countries"
 	}, {
-		"alias": "Less developed regions, excluding China",
 		"filename": "2010_948.js",
+		"id": 948,
 		"name": "Less developed regions, excluding China",
-		"id": "948"
+		"alias": "Less developed regions, excluding China"
 	}, {
-		"alias": "Sub-Saharan Africa",
 		"filename": "2010_947.js",
+		"id": 947,
 		"name": "Sub-Saharan Africa",
-		"id": "947"
+		"alias": "Sub-Saharan Africa"
 	}, {
-		"alias": "Africa",
 		"filename": "2010_903.js",
+		"id": 903,
 		"name": "AFRICA",
-		"id": "903"
+		"alias": "AFRICA"
 	}, {
-		"alias": "Eastern Africa",
 		"filename": "2010_910.js",
+		"id": 910,
 		"name": "Eastern Africa",
-		"id": "910"
+		"alias": "Eastern Africa"
 	}, {
-		"alias": "Burundi",
 		"filename": "2010_108.js",
+		"id": 108,
 		"name": "Burundi",
-		"id": "108"
+		"alias": "Burundi"
 	}, {
-		"alias": "Comoros",
 		"filename": "2010_174.js",
+		"id": 174,
 		"name": "Comoros",
-		"id": "174"
+		"alias": "Comoros"
 	}, {
-		"alias": "Djibouti",
 		"filename": "2010_262.js",
+		"id": 262,
 		"name": "Djibouti",
-		"id": "262"
+		"alias": "Djibouti"
 	}, {
-		"alias": "Eritrea",
 		"filename": "2010_232.js",
+		"id": 232,
 		"name": "Eritrea",
-		"id": "232"
+		"alias": "Eritrea"
 	}, {
-		"alias": "Ethiopia",
 		"filename": "2010_231.js",
+		"id": 231,
 		"name": "Ethiopia",
-		"id": "231"
+		"alias": "Ethiopia"
 	}, {
-		"alias": "Kenya",
 		"filename": "2010_404.js",
+		"id": 404,
 		"name": "Kenya",
-		"id": "404"
+		"alias": "Kenya"
 	}, {
-		"alias": "Madagascar",
 		"filename": "2010_450.js",
+		"id": 450,
 		"name": "Madagascar",
-		"id": "450"
+		"alias": "Madagascar"
 	}, {
-		"alias": "Malawi",
 		"filename": "2010_454.js",
+		"id": 454,
 		"name": "Malawi",
-		"id": "454"
+		"alias": "Malawi"
 	}, {
-		"alias": "Mauritius",
 		"filename": "2010_480.js",
+		"id": 480,
 		"name": "Mauritius",
-		"id": "480"
+		"alias": "Mauritius"
 	}, {
-		"alias": "Mayotte",
 		"filename": "2010_175.js",
+		"id": 175,
 		"name": "Mayotte",
-		"id": "175"
+		"alias": "Mayotte"
 	}, {
-		"alias": "Mozambique",
 		"filename": "2010_508.js",
+		"id": 508,
 		"name": "Mozambique",
-		"id": "508"
+		"alias": "Mozambique"
 	}, {
-		"alias": "Reunion",
 		"filename": "2010_638.js",
+		"id": 638,
 		"name": "R\u00c3\u00a9union",
-		"id": "638"
+		"alias": "R\u00c3\u00a9union"
 	}, {
-		"alias": "Rwanda",
 		"filename": "2010_646.js",
+		"id": 646,
 		"name": "Rwanda",
-		"id": "646"
+		"alias": "Rwanda"
 	}, {
-		"alias": "Somalia",
 		"filename": "2010_706.js",
+		"id": 706,
 		"name": "Somalia",
-		"id": "706"
+		"alias": "Somalia"
 	}, {
-		"alias": "Uganda",
 		"filename": "2010_800.js",
+		"id": 800,
 		"name": "Uganda",
-		"id": "800"
+		"alias": "Uganda"
 	}, {
-		"alias": "Tanzania",
 		"filename": "2010_834.js",
+		"id": 834,
 		"name": "United Republic of Tanzania",
-		"id": "834"
+		"alias": "United Republic of Tanzania"
 	}, {
-		"alias": "Zambia",
 		"filename": "2010_894.js",
+		"id": 894,
 		"name": "Zambia",
-		"id": "894"
+		"alias": "Zambia"
 	}, {
-		"alias": "Zimbabwe",
 		"filename": "2010_716.js",
+		"id": 716,
 		"name": "Zimbabwe",
-		"id": "716"
+		"alias": "Zimbabwe"
 	}, {
-		"alias": "Middle Africa",
 		"filename": "2010_911.js",
+		"id": 911,
 		"name": "Middle Africa",
-		"id": "911"
+		"alias": "Middle Africa"
 	}, {
-		"alias": "Angola",
 		"filename": "2010_24.js",
+		"id": 24,
 		"name": "Angola",
-		"id": "24"
+		"alias": "Angola"
 	}, {
-		"alias": "Cameroon",
 		"filename": "2010_120.js",
+		"id": 120,
 		"name": "Cameroon",
-		"id": "120"
+		"alias": "Cameroon"
 	}, {
-		"alias": "C.A.R.",
 		"filename": "2010_140.js",
+		"id": 140,
 		"name": "Central African Republic",
-		"id": "140"
+		"alias": "Central African Republic"
 	}, {
-		"alias": "Chad",
 		"filename": "2010_148.js",
+		"id": 148,
 		"name": "Chad",
-		"id": "148"
+		"alias": "Chad"
 	}, {
-		"alias": "Congo",
 		"filename": "2010_178.js",
+		"id": 178,
 		"name": "Congo",
-		"id": "178"
+		"alias": "Congo"
 	}, {
-		"alias": "Congo",
 		"filename": "2010_180.js",
+		"id": 180,
 		"name": "Democratic Republic of the Congo",
-		"id": "180"
+		"alias": "Democratic Republic of the Congo"
 	}, {
-		"alias": "Equatorial Guinea",
 		"filename": "2010_226.js",
+		"id": 226,
 		"name": "Equatorial Guinea",
-		"id": "226"
+		"alias": "Equatorial Guinea"
 	}, {
-		"alias": "Gabon",
 		"filename": "2010_266.js",
+		"id": 266,
 		"name": "Gabon",
-		"id": "266"
+		"alias": "Gabon"
 	}, {
-		"alias": "Sao Tome and Principe",
 		"filename": "2010_678.js",
+		"id": 678,
 		"name": "Sao Tome and Principe",
-		"id": "678"
+		"alias": "Sao Tome and Principe"
 	}, {
-		"alias": "Northern Africa",
 		"filename": "2010_912.js",
+		"id": 912,
 		"name": "Northern Africa",
-		"id": "912"
+		"alias": "Northern Africa"
 	}, {
-		"alias": "Algeria",
 		"filename": "2010_12.js",
+		"id": 12,
 		"name": "Algeria",
-		"id": "12"
+		"alias": "Algeria"
 	}, {
-		"alias": "Egypt",
 		"filename": "2010_818.js",
+		"id": 818,
 		"name": "Egypt",
-		"id": "818"
+		"alias": "Egypt"
 	}, {
-		"alias": "Libya",
 		"filename": "2010_434.js",
+		"id": 434,
 		"name": "Libyan Arab Jamahiriya",
-		"id": "434"
+		"alias": "Libyan Arab Jamahiriya"
 	}, {
-		"alias": "Morocco",
 		"filename": "2010_504.js",
+		"id": 504,
 		"name": "Morocco",
-		"id": "504"
+		"alias": "Morocco"
 	}, {
-		"alias": "Sudan",
 		"filename": "2010_736.js",
+		"id": 736,
 		"name": "Sudan",
-		"id": "736"
+		"alias": "Sudan"
 	}, {
-		"alias": "Tunisia",
 		"filename": "2010_788.js",
+		"id": 788,
 		"name": "Tunisia",
-		"id": "788"
+		"alias": "Tunisia"
 	}, {
-		"alias": "Western Sahara",
 		"filename": "2010_732.js",
+		"id": 732,
 		"name": "Western Sahara",
-		"id": "732"
+		"alias": "Western Sahara"
 	}, {
-		"alias": "Southern Africa",
 		"filename": "2010_913.js",
+		"id": 913,
 		"name": "Southern Africa",
-		"id": "913"
+		"alias": "Southern Africa"
 	}, {
-		"alias": "Botswana",
 		"filename": "2010_72.js",
+		"id": 72,
 		"name": "Botswana",
-		"id": "72"
+		"alias": "Botswana"
 	}, {
-		"alias": "Lesotho",
 		"filename": "2010_426.js",
+		"id": 426,
 		"name": "Lesotho",
-		"id": "426"
+		"alias": "Lesotho"
 	}, {
-		"alias": "Namibia",
 		"filename": "2010_516.js",
+		"id": 516,
 		"name": "Namibia",
-		"id": "516"
+		"alias": "Namibia"
 	}, {
-		"alias": "South Africa",
 		"filename": "2010_710.js",
+		"id": 710,
 		"name": "South Africa",
-		"id": "710"
+		"alias": "South Africa"
 	}, {
-		"alias": "Swaziland",
 		"filename": "2010_748.js",
+		"id": 748,
 		"name": "Swaziland",
-		"id": "748"
+		"alias": "Swaziland"
 	}, {
-		"alias": "Western Africa",
 		"filename": "2010_914.js",
+		"id": 914,
 		"name": "Western Africa",
-		"id": "914"
+		"alias": "Western Africa"
 	}, {
-		"alias": "Benin",
 		"filename": "2010_204.js",
+		"id": 204,
 		"name": "Benin",
-		"id": "204"
+		"alias": "Benin"
 	}, {
-		"alias": "Burkina Faso",
 		"filename": "2010_854.js",
+		"id": 854,
 		"name": "Burkina Faso",
-		"id": "854"
+		"alias": "Burkina Faso"
 	}, {
-		"alias": "Cape Verde",
 		"filename": "2010_132.js",
+		"id": 132,
 		"name": "Cape Verde",
-		"id": "132"
+		"alias": "Cape Verde"
 	}, {
-		"alias": "Cote d'Ivoire",
 		"filename": "2010_384.js",
+		"id": 384,
 		"name": "C\u00c3\u00b4te d'Ivoire",
-		"id": "384"
+		"alias": "C\u00c3\u00b4te d'Ivoire"
 	}, {
-		"alias": "Gambia",
 		"filename": "2010_270.js",
+		"id": 270,
 		"name": "Gambia",
-		"id": "270"
+		"alias": "Gambia"
 	}, {
-		"alias": "Ghana",
 		"filename": "2010_288.js",
+		"id": 288,
 		"name": "Ghana",
-		"id": "288"
+		"alias": "Ghana"
 	}, {
-		"alias": "Guinea",
 		"filename": "2010_324.js",
+		"id": 324,
 		"name": "Guinea",
-		"id": "324"
+		"alias": "Guinea"
 	}, {
-		"alias": "Guinea-Bissau",
 		"filename": "2010_624.js",
+		"id": 624,
 		"name": "Guinea-Bissau",
-		"id": "624"
+		"alias": "Guinea-Bissau"
 	}, {
-		"alias": "Liberia",
 		"filename": "2010_430.js",
+		"id": 430,
 		"name": "Liberia",
-		"id": "430"
+		"alias": "Liberia"
 	}, {
-		"alias": "Mali",
 		"filename": "2010_466.js",
+		"id": 466,
 		"name": "Mali",
-		"id": "466"
+		"alias": "Mali"
 	}, {
-		"alias": "Mauritania",
 		"filename": "2010_478.js",
+		"id": 478,
 		"name": "Mauritania",
-		"id": "478"
+		"alias": "Mauritania"
 	}, {
-		"alias": "Niger",
 		"filename": "2010_562.js",
+		"id": 562,
 		"name": "Niger",
-		"id": "562"
+		"alias": "Niger"
 	}, {
-		"alias": "Nigeria",
 		"filename": "2010_566.js",
+		"id": 566,
 		"name": "Nigeria",
-		"id": "566"
+		"alias": "Nigeria"
 	}, {
-		"alias": "Senegal",
 		"filename": "2010_686.js",
+		"id": 686,
 		"name": "Senegal",
-		"id": "686"
+		"alias": "Senegal"
 	}, {
-		"alias": "Sierra Leone",
 		"filename": "2010_694.js",
+		"id": 694,
 		"name": "Sierra Leone",
-		"id": "694"
+		"alias": "Sierra Leone"
 	}, {
-		"alias": "Togo",
 		"filename": "2010_768.js",
+		"id": 768,
 		"name": "Togo",
-		"id": "768"
+		"alias": "Togo"
 	}, {
-		"alias": "ASIA",
 		"filename": "2010_935.js",
+		"id": 935,
 		"name": "ASIA",
-		"id": "935"
+		"alias": "ASIA"
 	}, {
-		"alias": "Eastern Asia",
 		"filename": "2010_906.js",
+		"id": 906,
 		"name": "Eastern Asia",
-		"id": "906"
+		"alias": "Eastern Asia"
 	}, {
-		"alias": "China",
 		"filename": "2010_156.js",
+		"id": 156,
 		"name": "China",
-		"id": "156"
+		"alias": "China"
 	}, {
-		"alias": "Hong Kong",
 		"filename": "2010_344.js",
+		"id": 344,
 		"name": "China, Hong Kong SAR",
-		"id": "344"
+		"alias": "China, Hong Kong SAR"
 	}, {
-		"alias": "Macao",
 		"filename": "2010_446.js",
+		"id": 446,
 		"name": "China, Macao SAR",
-		"id": "446"
+		"alias": "China, Macao SAR"
 	}, {
-		"alias": "North Korea",
 		"filename": "2010_408.js",
+		"id": 408,
 		"name": "Dem. People's Republic of Korea",
-		"id": "408"
+		"alias": "Dem. People's Republic of Korea"
 	}, {
-		"alias": "Japan",
 		"filename": "2010_392.js",
+		"id": 392,
 		"name": "Japan",
-		"id": "392"
+		"alias": "Japan"
 	}, {
-		"alias": "Mongolia",
 		"filename": "2010_496.js",
+		"id": 496,
 		"name": "Mongolia",
-		"id": "496"
+		"alias": "Mongolia"
 	}, {
-		"alias": "South Korea",
 		"filename": "2010_410.js",
+		"id": 410,
 		"name": "Republic of Korea",
-		"id": "410"
+		"alias": "Republic of Korea"
 	}, {
-		"alias": "Other non-specified areas",
 		"filename": "2010_158.js",
+		"id": 158,
 		"name": "Other non-specified areas",
-		"id": "158"
+		"alias": "Other non-specified areas"
 	}, {
-		"alias": "South-Central Asia",
 		"filename": "2010_921.js",
+		"id": 921,
 		"name": "South-Central Asia",
-		"id": "921"
+		"alias": "South-Central Asia"
 	}, {
-		"alias": "Central Asia",
 		"filename": "2010_5500.js",
+		"id": 5500,
 		"name": "Central Asia",
-		"id": "5500"
+		"alias": "Central Asia"
 	}, {
-		"alias": "Kazakhstan",
 		"filename": "2010_398.js",
+		"id": 398,
 		"name": "Kazakhstan",
-		"id": "398"
+		"alias": "Kazakhstan"
 	}, {
-		"alias": "Kyrgyzstan",
 		"filename": "2010_417.js",
+		"id": 417,
 		"name": "Kyrgyzstan",
-		"id": "417"
+		"alias": "Kyrgyzstan"
 	}, {
-		"alias": "Tajikistan",
 		"filename": "2010_762.js",
+		"id": 762,
 		"name": "Tajikistan",
-		"id": "762"
+		"alias": "Tajikistan"
 	}, {
-		"alias": "Turkmenistan",
 		"filename": "2010_795.js",
+		"id": 795,
 		"name": "Turkmenistan",
-		"id": "795"
+		"alias": "Turkmenistan"
 	}, {
-		"alias": "Uzbekistan",
 		"filename": "2010_860.js",
+		"id": 860,
 		"name": "Uzbekistan",
-		"id": "860"
+		"alias": "Uzbekistan"
 	}, {
-		"alias": "Southern Asia",
 		"filename": "2010_5501.js",
+		"id": 5501,
 		"name": "Southern Asia",
-		"id": "5501"
+		"alias": "Southern Asia"
 	}, {
-		"alias": "Afghanistan",
 		"filename": "2010_4.js",
+		"id": 4,
 		"name": "Afghanistan",
-		"id": "4"
+		"alias": "Afghanistan"
 	}, {
-		"alias": "Bangladesh",
 		"filename": "2010_50.js",
+		"id": 50,
 		"name": "Bangladesh",
-		"id": "50"
+		"alias": "Bangladesh"
 	}, {
-		"alias": "Bhutan",
 		"filename": "2010_64.js",
+		"id": 64,
 		"name": "Bhutan",
-		"id": "64"
+		"alias": "Bhutan"
 	}, {
-		"alias": "India",
 		"filename": "2010_356.js",
+		"id": 356,
 		"name": "India",
-		"id": "356"
+		"alias": "India"
 	}, {
-		"alias": "Iran",
 		"filename": "2010_364.js",
+		"id": 364,
 		"name": "Iran (Islamic Republic of)",
-		"id": "364"
+		"alias": "Iran (Islamic Republic of)"
 	}, {
-		"alias": "Maldives",
 		"filename": "2010_462.js",
+		"id": 462,
 		"name": "Maldives",
-		"id": "462"
+		"alias": "Maldives"
 	}, {
-		"alias": "Nepal",
 		"filename": "2010_524.js",
+		"id": 524,
 		"name": "Nepal",
-		"id": "524"
+		"alias": "Nepal"
 	}, {
-		"alias": "Pakistan",
 		"filename": "2010_586.js",
+		"id": 586,
 		"name": "Pakistan",
-		"id": "586"
+		"alias": "Pakistan"
 	}, {
-		"alias": "Sri Lanka",
 		"filename": "2010_144.js",
+		"id": 144,
 		"name": "Sri Lanka",
-		"id": "144"
+		"alias": "Sri Lanka"
 	}, {
-		"alias": "South-Eastern Asia",
 		"filename": "2010_920.js",
+		"id": 920,
 		"name": "South-Eastern Asia",
-		"id": "920"
+		"alias": "South-Eastern Asia"
 	}, {
-		"alias": "Brunei Darussalam",
 		"filename": "2010_96.js",
+		"id": 96,
 		"name": "Brunei Darussalam",
-		"id": "96"
+		"alias": "Brunei Darussalam"
 	}, {
-		"alias": "Cambodia",
 		"filename": "2010_116.js",
+		"id": 116,
 		"name": "Cambodia",
-		"id": "116"
+		"alias": "Cambodia"
 	}, {
-		"alias": "Indonesia",
 		"filename": "2010_360.js",
+		"id": 360,
 		"name": "Indonesia",
-		"id": "360"
+		"alias": "Indonesia"
 	}, {
-		"alias": "Laos",
 		"filename": "2010_418.js",
+		"id": 418,
 		"name": "Lao People's Democratic Republic",
-		"id": "418"
+		"alias": "Lao People's Democratic Republic"
 	}, {
-		"alias": "Malaysia",
 		"filename": "2010_458.js",
+		"id": 458,
 		"name": "Malaysia",
-		"id": "458"
+		"alias": "Malaysia"
 	}, {
-		"alias": "Myanmar",
 		"filename": "2010_104.js",
+		"id": 104,
 		"name": "Myanmar",
-		"id": "104"
+		"alias": "Myanmar"
 	}, {
-		"alias": "Philippines",
 		"filename": "2010_608.js",
+		"id": 608,
 		"name": "Philippines",
-		"id": "608"
+		"alias": "Philippines"
 	}, {
-		"alias": "Singapore",
 		"filename": "2010_702.js",
+		"id": 702,
 		"name": "Singapore",
-		"id": "702"
+		"alias": "Singapore"
 	}, {
-		"alias": "Thailand",
 		"filename": "2010_764.js",
+		"id": 764,
 		"name": "Thailand",
-		"id": "764"
+		"alias": "Thailand"
 	}, {
-		"alias": "Timor-Leste",
 		"filename": "2010_626.js",
+		"id": 626,
 		"name": "Timor-Leste",
-		"id": "626"
+		"alias": "Timor-Leste"
 	}, {
-		"alias": "Vietnam",
 		"filename": "2010_704.js",
+		"id": 704,
 		"name": "Viet Nam",
-		"id": "704"
+		"alias": "Viet Nam"
 	}, {
-		"alias": "Western Asia",
 		"filename": "2010_922.js",
+		"id": 922,
 		"name": "Western Asia",
-		"id": "922"
+		"alias": "Western Asia"
 	}, {
-		"alias": "Armenia",
 		"filename": "2010_51.js",
+		"id": 51,
 		"name": "Armenia",
-		"id": "51"
+		"alias": "Armenia"
 	}, {
-		"alias": "Azerbaijan",
 		"filename": "2010_31.js",
+		"id": 31,
 		"name": "Azerbaijan",
-		"id": "31"
+		"alias": "Azerbaijan"
 	}, {
-		"alias": "Bahrain",
 		"filename": "2010_48.js",
+		"id": 48,
 		"name": "Bahrain",
-		"id": "48"
+		"alias": "Bahrain"
 	}, {
-		"alias": "Cyprus",
 		"filename": "2010_196.js",
+		"id": 196,
 		"name": "Cyprus",
-		"id": "196"
+		"alias": "Cyprus"
 	}, {
-		"alias": "Georgia",
 		"filename": "2010_268.js",
+		"id": 268,
 		"name": "Georgia",
-		"id": "268"
+		"alias": "Georgia"
 	}, {
-		"alias": "Iraq",
 		"filename": "2010_368.js",
+		"id": 368,
 		"name": "Iraq",
-		"id": "368"
+		"alias": "Iraq"
 	}, {
-		"alias": "Israel",
 		"filename": "2010_376.js",
+		"id": 376,
 		"name": "Israel",
-		"id": "376"
+		"alias": "Israel"
 	}, {
-		"alias": "Jordan",
 		"filename": "2010_400.js",
+		"id": 400,
 		"name": "Jordan",
-		"id": "400"
+		"alias": "Jordan"
 	}, {
-		"alias": "Kuwait",
 		"filename": "2010_414.js",
+		"id": 414,
 		"name": "Kuwait",
-		"id": "414"
+		"alias": "Kuwait"
 	}, {
-		"alias": "Lebanon",
 		"filename": "2010_422.js",
+		"id": 422,
 		"name": "Lebanon",
-		"id": "422"
+		"alias": "Lebanon"
 	}, {
-		"alias": "Palestine",
 		"filename": "2010_275.js",
+		"id": 275,
 		"name": "Occupied Palestinian Territory",
-		"id": "275"
+		"alias": "Occupied Palestinian Territory"
 	}, {
-		"alias": "Oman",
 		"filename": "2010_512.js",
+		"id": 512,
 		"name": "Oman",
-		"id": "512"
+		"alias": "Oman"
 	}, {
-		"alias": "Qatar",
 		"filename": "2010_634.js",
+		"id": 634,
 		"name": "Qatar",
-		"id": "634"
+		"alias": "Qatar"
 	}, {
-		"alias": "Saudi Arabia",
 		"filename": "2010_682.js",
+		"id": 682,
 		"name": "Saudi Arabia",
-		"id": "682"
+		"alias": "Saudi Arabia"
 	}, {
-		"alias": "Syria",
 		"filename": "2010_760.js",
+		"id": 760,
 		"name": "Syrian Arab Republic",
-		"id": "760"
+		"alias": "Syrian Arab Republic"
 	}, {
-		"alias": "Turkey",
 		"filename": "2010_792.js",
+		"id": 792,
 		"name": "Turkey",
-		"id": "792"
+		"alias": "Turkey"
 	}, {
-		"alias": "United Arab Emirates",
 		"filename": "2010_784.js",
+		"id": 784,
 		"name": "United Arab Emirates",
-		"id": "784"
+		"alias": "United Arab Emirates"
 	}, {
-		"alias": "Yemen",
 		"filename": "2010_887.js",
+		"id": 887,
 		"name": "Yemen",
-		"id": "887"
+		"alias": "Yemen"
 	}, {
-		"alias": "Europe",
 		"filename": "2010_908.js",
+		"id": 908,
 		"name": "EUROPE",
-		"id": "908"
+		"alias": "EUROPE"
 	}, {
-		"alias": "Eastern Europe",
 		"filename": "2010_923.js",
+		"id": 923,
 		"name": "Eastern Europe",
-		"id": "923"
+		"alias": "Eastern Europe"
 	}, {
-		"alias": "Belarus",
 		"filename": "2010_112.js",
+		"id": 112,
 		"name": "Belarus",
-		"id": "112"
+		"alias": "Belarus"
 	}, {
-		"alias": "Bulgaria",
 		"filename": "2010_100.js",
+		"id": 100,
 		"name": "Bulgaria",
-		"id": "100"
+		"alias": "Bulgaria"
 	}, {
-		"alias": "Czech Republic",
 		"filename": "2010_203.js",
+		"id": 203,
 		"name": "Czech Republic",
-		"id": "203"
+		"alias": "Czech Republic"
 	}, {
-		"alias": "Hungary",
 		"filename": "2010_348.js",
+		"id": 348,
 		"name": "Hungary",
-		"id": "348"
+		"alias": "Hungary"
 	}, {
-		"alias": "Poland",
 		"filename": "2010_616.js",
+		"id": 616,
 		"name": "Poland",
-		"id": "616"
+		"alias": "Poland"
 	}, {
-		"alias": "Moldova",
 		"filename": "2010_498.js",
+		"id": 498,
 		"name": "Republic of Moldova",
-		"id": "498"
+		"alias": "Republic of Moldova"
 	}, {
-		"alias": "Romania",
 		"filename": "2010_642.js",
+		"id": 642,
 		"name": "Romania",
-		"id": "642"
+		"alias": "Romania"
 	}, {
-		"alias": "Russia",
 		"filename": "2010_643.js",
+		"id": 643,
 		"name": "Russian Federation",
-		"id": "643"
+		"alias": "Russian Federation"
 	}, {
-		"alias": "Slovakia",
 		"filename": "2010_703.js",
+		"id": 703,
 		"name": "Slovakia",
-		"id": "703"
+		"alias": "Slovakia"
 	}, {
-		"alias": "Ukraine",
 		"filename": "2010_804.js",
+		"id": 804,
 		"name": "Ukraine",
-		"id": "804"
+		"alias": "Ukraine"
 	}, {
-		"alias": "Northern Europe",
 		"filename": "2010_924.js",
+		"id": 924,
 		"name": "Northern Europe",
-		"id": "924"
+		"alias": "Northern Europe"
 	}, {
-		"alias": "Channel Islands",
 		"filename": "2010_830.js",
+		"id": 830,
 		"name": "Channel Islands",
-		"id": "830"
+		"alias": "Channel Islands"
 	}, {
-		"alias": "Denmark",
 		"filename": "2010_208.js",
+		"id": 208,
 		"name": "Denmark",
-		"id": "208"
+		"alias": "Denmark"
 	}, {
-		"alias": "Estonia",
 		"filename": "2010_233.js",
+		"id": 233,
 		"name": "Estonia",
-		"id": "233"
+		"alias": "Estonia"
 	}, {
-		"alias": "Finland",
 		"filename": "2010_246.js",
+		"id": 246,
 		"name": "Finland",
-		"id": "246"
+		"alias": "Finland"
 	}, {
-		"alias": "Iceland",
 		"filename": "2010_352.js",
+		"id": 352,
 		"name": "Iceland",
-		"id": "352"
+		"alias": "Iceland"
 	}, {
-		"alias": "Ireland",
 		"filename": "2010_372.js",
+		"id": 372,
 		"name": "Ireland",
-		"id": "372"
+		"alias": "Ireland"
 	}, {
-		"alias": "Latvia",
 		"filename": "2010_428.js",
+		"id": 428,
 		"name": "Latvia",
-		"id": "428"
+		"alias": "Latvia"
 	}, {
-		"alias": "Lithuania",
 		"filename": "2010_440.js",
+		"id": 440,
 		"name": "Lithuania",
-		"id": "440"
+		"alias": "Lithuania"
 	}, {
-		"alias": "Norway",
 		"filename": "2010_578.js",
+		"id": 578,
 		"name": "Norway",
-		"id": "578"
+		"alias": "Norway"
 	}, {
-		"alias": "Sweden",
 		"filename": "2010_752.js",
+		"id": 752,
 		"name": "Sweden",
-		"id": "752"
+		"alias": "Sweden"
 	}, {
-		"alias": "United Kingdom",
 		"filename": "2010_826.js",
+		"id": 826,
 		"name": "United Kingdom",
-		"id": "826"
+		"alias": "United Kingdom"
 	}, {
-		"alias": "Southern Europe",
 		"filename": "2010_925.js",
+		"id": 925,
 		"name": "Southern Europe",
-		"id": "925"
+		"alias": "Southern Europe"
 	}, {
-		"alias": "Albania",
 		"filename": "2010_8.js",
+		"id": 8,
 		"name": "Albania",
-		"id": "8"
+		"alias": "Albania"
 	}, {
-		"alias": "Bosnia",
 		"filename": "2010_70.js",
+		"id": 70,
 		"name": "Bosnia and Herzegovina",
-		"id": "70"
+		"alias": "Bosnia and Herzegovina"
 	}, {
-		"alias": "Croatia",
 		"filename": "2010_191.js",
+		"id": 191,
 		"name": "Croatia",
-		"id": "191"
+		"alias": "Croatia"
 	}, {
-		"alias": "Greece",
 		"filename": "2010_300.js",
+		"id": 300,
 		"name": "Greece",
-		"id": "300"
+		"alias": "Greece"
 	}, {
-		"alias": "Italy",
 		"filename": "2010_380.js",
+		"id": 380,
 		"name": "Italy",
-		"id": "380"
+		"alias": "Italy"
 	}, {
-		"alias": "Malta",
 		"filename": "2010_470.js",
+		"id": 470,
 		"name": "Malta",
-		"id": "470"
+		"alias": "Malta"
 	}, {
-		"alias": "Montenegro",
 		"filename": "2010_499.js",
+		"id": 499,
 		"name": "Montenegro",
-		"id": "499"
+		"alias": "Montenegro"
 	}, {
-		"alias": "Portugal",
 		"filename": "2010_620.js",
+		"id": 620,
 		"name": "Portugal",
-		"id": "620"
+		"alias": "Portugal"
 	}, {
-		"alias": "Serbia",
 		"filename": "2010_688.js",
+		"id": 688,
 		"name": "Serbia",
-		"id": "688"
+		"alias": "Serbia"
 	}, {
-		"alias": "Slovenia",
 		"filename": "2010_705.js",
+		"id": 705,
 		"name": "Slovenia",
-		"id": "705"
+		"alias": "Slovenia"
 	}, {
-		"alias": "Spain",
 		"filename": "2010_724.js",
+		"id": 724,
 		"name": "Spain",
-		"id": "724"
+		"alias": "Spain"
 	}, {
-		"alias": "Macedonia",
 		"filename": "2010_807.js",
+		"id": 807,
 		"name": "TFYR Macedonia",
-		"id": "807"
+		"alias": "TFYR Macedonia"
 	}, {
-		"alias": "Western Europe",
 		"filename": "2010_926.js",
+		"id": 926,
 		"name": "Western Europe",
-		"id": "926"
+		"alias": "Western Europe"
 	}, {
-		"alias": "Austria",
 		"filename": "2010_40.js",
+		"id": 40,
 		"name": "Austria",
-		"id": "40"
+		"alias": "Austria"
 	}, {
-		"alias": "Belgium",
 		"filename": "2010_56.js",
+		"id": 56,
 		"name": "Belgium",
-		"id": "56"
+		"alias": "Belgium"
 	}, {
-		"alias": "France",
 		"filename": "2010_250.js",
+		"id": 250,
 		"name": "France",
-		"id": "250"
+		"alias": "France"
 	}, {
-		"alias": "Germany",
 		"filename": "2010_276.js",
+		"id": 276,
 		"name": "Germany",
-		"id": "276"
+		"alias": "Germany"
 	}, {
-		"alias": "Luxembourg",
 		"filename": "2010_442.js",
+		"id": 442,
 		"name": "Luxembourg",
-		"id": "442"
+		"alias": "Luxembourg"
 	}, {
-		"alias": "Netherlands",
 		"filename": "2010_528.js",
+		"id": 528,
 		"name": "Netherlands",
-		"id": "528"
+		"alias": "Netherlands"
 	}, {
-		"alias": "Switzerland",
 		"filename": "2010_756.js",
+		"id": 756,
 		"name": "Switzerland",
-		"id": "756"
+		"alias": "Switzerland"
 	}, {
-		"alias": "Latin America and the Caribbean",
 		"filename": "2010_904.js",
+		"id": 904,
 		"name": "LATIN AMERICA AND THE CARIBBEAN",
-		"id": "904"
+		"alias": "LATIN AMERICA AND THE CARIBBEAN"
 	}, {
-		"alias": "Caribbean",
 		"filename": "2010_915.js",
+		"id": 915,
 		"name": "Caribbean",
-		"id": "915"
+		"alias": "Caribbean"
 	}, {
-		"alias": "Aruba",
 		"filename": "2010_533.js",
+		"id": 533,
 		"name": "Aruba",
-		"id": "533"
+		"alias": "Aruba"
 	}, {
-		"alias": "Bahamas",
 		"filename": "2010_44.js",
+		"id": 44,
 		"name": "Bahamas",
-		"id": "44"
+		"alias": "Bahamas"
 	}, {
-		"alias": "Barbados",
 		"filename": "2010_52.js",
+		"id": 52,
 		"name": "Barbados",
-		"id": "52"
+		"alias": "Barbados"
 	}, {
-		"alias": "Cuba",
 		"filename": "2010_192.js",
+		"id": 192,
 		"name": "Cuba",
-		"id": "192"
+		"alias": "Cuba"
 	}, {
-		"alias": "Dominican Republic",
 		"filename": "2010_214.js",
+		"id": 214,
 		"name": "Dominican Republic",
-		"id": "214"
+		"alias": "Dominican Republic"
 	}, {
-		"alias": "Grenada",
 		"filename": "2010_308.js",
+		"id": 308,
 		"name": "Grenada",
-		"id": "308"
+		"alias": "Grenada"
 	}, {
-		"alias": "Guadeloupe",
 		"filename": "2010_312.js",
+		"id": 312,
 		"name": "Guadeloupe",
-		"id": "312"
+		"alias": "Guadeloupe"
 	}, {
-		"alias": "Haiti",
 		"filename": "2010_332.js",
+		"id": 332,
 		"name": "Haiti",
-		"id": "332"
+		"alias": "Haiti"
 	}, {
-		"alias": "Jamaica",
 		"filename": "2010_388.js",
+		"id": 388,
 		"name": "Jamaica",
-		"id": "388"
+		"alias": "Jamaica"
 	}, {
-		"alias": "Martinique",
 		"filename": "2010_474.js",
+		"id": 474,
 		"name": "Martinique",
-		"id": "474"
+		"alias": "Martinique"
 	}, {
-		"alias": "Netherlands",
 		"filename": "2010_530.js",
+		"id": 530,
 		"name": "Netherlands Antilles",
-		"id": "530"
+		"alias": "Netherlands Antilles"
 	}, {
-		"alias": "Puerto Rico",
 		"filename": "2010_630.js",
+		"id": 630,
 		"name": "Puerto Rico",
-		"id": "630"
+		"alias": "Puerto Rico"
 	}, {
-		"alias": "Saint Lucia",
 		"filename": "2010_662.js",
+		"id": 662,
 		"name": "Saint Lucia",
-		"id": "662"
+		"alias": "Saint Lucia"
 	}, {
-		"alias": "Saint Vincent and the Grenadines",
 		"filename": "2010_670.js",
+		"id": 670,
 		"name": "Saint Vincent and the Grenadines",
-		"id": "670"
+		"alias": "Saint Vincent and the Grenadines"
 	}, {
-		"alias": "Trinidad and Tobago",
 		"filename": "2010_780.js",
+		"id": 780,
 		"name": "Trinidad and Tobago",
-		"id": "780"
+		"alias": "Trinidad and Tobago"
 	}, {
-		"alias": "United States Virgin Islands",
 		"filename": "2010_850.js",
+		"id": 850,
 		"name": "United States Virgin Islands",
-		"id": "850"
+		"alias": "United States Virgin Islands"
 	}, {
-		"alias": "Central America",
 		"filename": "2010_916.js",
+		"id": 916,
 		"name": "Central America",
-		"id": "916"
+		"alias": "Central America"
 	}, {
-		"alias": "Belize",
 		"filename": "2010_84.js",
+		"id": 84,
 		"name": "Belize",
-		"id": "84"
+		"alias": "Belize"
 	}, {
-		"alias": "Costa Rica",
 		"filename": "2010_188.js",
+		"id": 188,
 		"name": "Costa Rica",
-		"id": "188"
+		"alias": "Costa Rica"
 	}, {
-		"alias": "El Salvador",
 		"filename": "2010_222.js",
+		"id": 222,
 		"name": "El Salvador",
-		"id": "222"
+		"alias": "El Salvador"
 	}, {
-		"alias": "Guatemala",
 		"filename": "2010_320.js",
+		"id": 320,
 		"name": "Guatemala",
-		"id": "320"
+		"alias": "Guatemala"
 	}, {
-		"alias": "Honduras",
 		"filename": "2010_340.js",
+		"id": 340,
 		"name": "Honduras",
-		"id": "340"
+		"alias": "Honduras"
 	}, {
-		"alias": "Mexico",
 		"filename": "2010_484.js",
+		"id": 484,
 		"name": "Mexico",
-		"id": "484"
+		"alias": "Mexico"
 	}, {
-		"alias": "Nicaragua",
 		"filename": "2010_558.js",
+		"id": 558,
 		"name": "Nicaragua",
-		"id": "558"
+		"alias": "Nicaragua"
 	}, {
-		"alias": "Panama",
 		"filename": "2010_591.js",
+		"id": 591,
 		"name": "Panama",
-		"id": "591"
+		"alias": "Panama"
 	}, {
-		"alias": "South America",
 		"filename": "2010_931.js",
+		"id": 931,
 		"name": "South America",
-		"id": "931"
+		"alias": "South America"
 	}, {
-		"alias": "Argentina",
 		"filename": "2010_32.js",
+		"id": 32,
 		"name": "Argentina",
-		"id": "32"
+		"alias": "Argentina"
 	}, {
-		"alias": "Bolivia",
 		"filename": "2010_68.js",
+		"id": 68,
 		"name": "Bolivia (Plurinational State of)",
-		"id": "68"
+		"alias": "Bolivia (Plurinational State of)"
 	}, {
-		"alias": "Brazil",
 		"filename": "2010_76.js",
+		"id": 76,
 		"name": "Brazil",
-		"id": "76"
+		"alias": "Brazil"
 	}, {
-		"alias": "Chile",
 		"filename": "2010_152.js",
+		"id": 152,
 		"name": "Chile",
-		"id": "152"
+		"alias": "Chile"
 	}, {
-		"alias": "Colombia",
 		"filename": "2010_170.js",
+		"id": 170,
 		"name": "Colombia",
-		"id": "170"
+		"alias": "Colombia"
 	}, {
-		"alias": "Ecuador",
 		"filename": "2010_218.js",
+		"id": 218,
 		"name": "Ecuador",
-		"id": "218"
+		"alias": "Ecuador"
 	}, {
-		"alias": "French Guiana",
 		"filename": "2010_254.js",
+		"id": 254,
 		"name": "French Guiana",
-		"id": "254"
+		"alias": "French Guiana"
 	}, {
-		"alias": "Guyana",
 		"filename": "2010_328.js",
+		"id": 328,
 		"name": "Guyana",
-		"id": "328"
+		"alias": "Guyana"
 	}, {
-		"alias": "Paraguay",
 		"filename": "2010_600.js",
+		"id": 600,
 		"name": "Paraguay",
-		"id": "600"
+		"alias": "Paraguay"
 	}, {
-		"alias": "Peru",
 		"filename": "2010_604.js",
+		"id": 604,
 		"name": "Peru",
-		"id": "604"
+		"alias": "Peru"
 	}, {
-		"alias": "Suriname",
 		"filename": "2010_740.js",
+		"id": 740,
 		"name": "Suriname",
-		"id": "740"
+		"alias": "Suriname"
 	}, {
-		"alias": "Uruguay",
 		"filename": "2010_858.js",
+		"id": 858,
 		"name": "Uruguay",
-		"id": "858"
+		"alias": "Uruguay"
 	}, {
-		"alias": "Venezuela",
 		"filename": "2010_862.js",
+		"id": 862,
 		"name": "Venezuela (Bolivarian Republic of)",
-		"id": "862"
+		"alias": "Venezuela (Bolivarian Republic of)"
 	}, {
-		"alias": "North America",
 		"filename": "2010_905.js",
+		"id": 905,
 		"name": "NORTHERN AMERICA",
-		"id": "905"
+		"alias": "NORTHERN AMERICA"
 	}, {
-		"alias": "Canada",
 		"filename": "2010_124.js",
+		"id": 124,
 		"name": "Canada",
-		"id": "124"
+		"alias": "Canada"
 	}, {
-		"alias": "United States of America",
 		"filename": "2010_840.js",
+		"id": 840,
 		"name": "United States of America",
-		"id": "840"
+		"alias": "United States of America"
 	}, {
-		"alias": "Oceania",
 		"filename": "2010_909.js",
+		"id": 909,
 		"name": "OCEANIA",
-		"id": "909"
+		"alias": "OCEANIA"
 	}, {
-		"alias": "Australia/New Zealand",
 		"filename": "2010_927.js",
+		"id": 927,
 		"name": "Australia/New Zealand",
-		"id": "927"
+		"alias": "Australia/New Zealand"
 	}, {
-		"alias": "Australia",
 		"filename": "2010_36.js",
+		"id": 36,
 		"name": "Australia",
-		"id": "36"
+		"alias": "Australia"
 	}, {
-		"alias": "New Zealand",
 		"filename": "2010_554.js",
+		"id": 554,
 		"name": "New Zealand",
-		"id": "554"
+		"alias": "New Zealand"
 	}, {
-		"alias": "Melanesia",
 		"filename": "2010_928.js",
+		"id": 928,
 		"name": "Melanesia",
-		"id": "928"
+		"alias": "Melanesia"
 	}, {
-		"alias": "Fiji",
 		"filename": "2010_242.js",
+		"id": 242,
 		"name": "Fiji",
-		"id": "242"
+		"alias": "Fiji"
 	}, {
-		"alias": "New Caledonia",
 		"filename": "2010_540.js",
+		"id": 540,
 		"name": "New Caledonia",
-		"id": "540"
+		"alias": "New Caledonia"
 	}, {
-		"alias": "Papua New Guinea",
 		"filename": "2010_598.js",
+		"id": 598,
 		"name": "Papua New Guinea",
-		"id": "598"
+		"alias": "Papua New Guinea"
 	}, {
-		"alias": "Solomon Islands",
 		"filename": "2010_90.js",
+		"id": 90,
 		"name": "Solomon Islands",
-		"id": "90"
+		"alias": "Solomon Islands"
 	}, {
-		"alias": "Vanuatu",
 		"filename": "2010_548.js",
+		"id": 548,
 		"name": "Vanuatu",
-		"id": "548"
+		"alias": "Vanuatu"
 	}, {
-		"alias": "Micronesia",
 		"filename": "2010_954.js",
+		"id": 954,
 		"name": "Micronesia",
-		"id": "954"
+		"alias": "Micronesia"
 	}, {
-		"alias": "Guam",
 		"filename": "2010_316.js",
+		"id": 316,
 		"name": "Guam",
-		"id": "316"
+		"alias": "Guam"
 	}, {
-		"alias": "Micronesia",
 		"filename": "2010_583.js",
+		"id": 583,
 		"name": "Micronesia (Fed. States of)",
-		"id": "583"
+		"alias": "Micronesia (Fed. States of)"
 	}, {
-		"alias": "Polynesia",
 		"filename": "2010_957.js",
+		"id": 957,
 		"name": "Polynesia",
-		"id": "957"
+		"alias": "Polynesia"
 	}, {
-		"alias": "French Polynesia",
 		"filename": "2010_258.js",
+		"id": 258,
 		"name": "French Polynesia",
-		"id": "258"
+		"alias": "French Polynesia"
 	}, {
-		"alias": "Samoa",
 		"filename": "2010_882.js",
+		"id": 882,
 		"name": "Samoa",
-		"id": "882"
+		"alias": "Samoa"
 	}, {
-		"alias": "Tonga",
 		"filename": "2010_776.js",
+		"id": 776,
 		"name": "Tonga",
-		"id": "776"
+		"alias": "Tonga"
 	}
 ]
