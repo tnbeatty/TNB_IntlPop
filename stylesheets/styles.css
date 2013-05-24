@@ -1,0 +1,35 @@
+/*
+* styles.scss, styles.css
+*
+* Written by Nate Beatty 
+* for the IntlPop! project.
+* May 2013
+*
+* This file contains any custom styling unaffiliated
+* with Zurb Foundation or other third party stylesheets.
+* CSS classes and ID's have `ip` prefix to prevent conflicts.
+*/
+/* global styles */
+/* footer styles */
+/* line 19, ../sass/styles.scss */
+footer {
+  padding-bottom: 10px;
+  color: #aaaaaa;
+}
+/* line 22, ../sass/styles.scss */
+footer a {
+  color: #aaaaaa;
+  border-bottom: dashed 1px;
+}
+/* line 26, ../sass/styles.scss */
+footer a:hover {
+  color: #a2a2a2;
+  border-bottom: dashed 1px;
+}
+
+/* line 32, ../sass/styles.scss */
+.ip-f-logo {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  opacity: 0.5;
+}

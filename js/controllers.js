@@ -14,9 +14,9 @@ function LaunchCtrl($scope, $http) {
 }
 
 function HelpCtrl($scope, $http) {
-	$scope.isMobile = (detectMobile()) ? true : false;
+
 }
 
 function AboutCtrl($scope, $http) {
-	$scope.isMobile = (detectMobile()) ? true : false;
+
 }
