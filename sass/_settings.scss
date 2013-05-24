@@ -1175,7 +1175,7 @@ $topbar-bg: #eee;
 
 // Link colors and styles for top-level nav
 
-$topbar-link-color: #C02702;
+$topbar-link-color: $primary-color;
 $topbar-link-color-hover: darken($topbar-link-color, 30%);
 $topbar-link-color-active: darken($topbar-link-color, 30%);
 $topbar-link-weight: light;
@@ -1184,8 +1184,8 @@ $topbar-link-hover-lightness: 70%; // Darken by 30%
 
 // Top bar dropdown elements
 
-// $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
+$topbar-dropdown-bg: #ccc;
+// $topbar-dropdown-link-color: #C02702;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
 // $topbar-dropdown-toggle-alpha: 0.5;
@@ -1196,10 +1196,13 @@ $topbar-link-hover-lightness: 70%; // Darken by 30%
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: emCalc(13px);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+$topbar-menu-link-color: $primary-color;
+$topbar-menu-icon-color: $primary-color;
+// $topbar-menu-link-color-toggled: blue;
+// $topbar-menu-icon-color-toggled: blue;
+
+// Sticky Class
+// $topbar-sticky-class: ".sticky";
 
 // Transitions and breakpoint styles
 
