@@ -22,8 +22,7 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 		link: function(scope, element, attrs) {
 
 			// Perform basic setup of the map
-			var map, markers;
-			map = L.map('map', {
+			var map = L.map('map', {
 				center: [40.0, attrs.uiMapCenterLong], 
 				zoom: 1.2,
 				minZoom: 1.2,
@@ -39,6 +38,11 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 						onEachFeature: onEachFeature
 					});
 					scope.currentLayer.addTo(map);
+				},
+				removeCurrentLayer: function() {
+					if (scope.currentLayer) {
+						map.removeLayer(scope.currentLayer);
+					}
 				}
 			});
 
@@ -56,14 +60,15 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 					fillColor: "#BBB",
 					fillOpacity: 1
 				}
-			}
+			};
 
 			function onEachFeature(feature, layer) {
 				layer.on({
 					mouseover: highlightFeature,
-					mouseout: resetHighlight
+					mouseout: resetHighlight,
+					click: handleMapclick
 				});
-			}
+			};
 
 			function highlightFeature(e) {
 				var layer = e.target;
@@ -76,25 +81,18 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 				if (!L.Browser.ie && !L.Browser.opera) {
 					layer.bringToFront();
 				}
-			}
+			};
 
 			function resetHighlight(e) {
 				scope.currentLayer.resetStyle(e.target);
-			}
+			};
 
-			function colorFeature(e) {
-				scope.currentLayer.resetStyle(e.target);
-
-				var layer = e.target;
-				layer.setStyle({
-					fillColor: '#C02702',
-					fillOpacity: 1.0
-				});
-			}
-
-			function zoomToFeature(e) {
-				map.fitBounds(e.target.getBounds());
-			}
+			function handleMapclick(e) {
+				// Call a generic select function so the controller can handle
+				// whatever future action is necessary to launch the simulator.
+				scope.selectById(parseInt(e.target.feature.properties.CountryID));
+			};
+			
 		}
 	};
 }]);

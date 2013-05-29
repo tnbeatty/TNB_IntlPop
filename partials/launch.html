@@ -5,7 +5,7 @@
 	</div>
 
 	<div class="large-12 columns">
-		<form>
+		<form class="custom">
 			<fieldset>
 				<legend>Select a Country</legend>
 
@@ -13,6 +13,13 @@
 
 					<div class="large-8 columns" onload="initMap()">
 						<div id="map" ui-map ui-map-zoom="2" ui-map-center-lat="25.0" ui-map-center-long="0.0"></div>
+						<!-- radio selection buttons -->
+						<ul class="inline-list">
+							<li><label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;" CHECKED><span class="custom radio checked" ng-click="changeLayer('Continents')"></span> Continents</label></li>
+							<li><label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"><span class="custom radio" ng-click="changeLayer('Regions')"></span> Regions</label></li>
+							<li><label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"><span class="custom radio" ng-click="changeLayer('Countries')"></span> Countries</label></li>
+						</ul>
+						
 					</div>
 
 					<div class="large-4 columns">
@@ -35,7 +42,7 @@
 					</div>
 
 					<div class="large-4 columns">
-						<a id="ip-simbutton" onClick="" class="button small radius">Simulate!</a>
+						<a id="ip-simbutton" ng-click="removeCurrentLayer()" class="button small radius">Simulate!</a>
 					</div>
 
 				</div>
