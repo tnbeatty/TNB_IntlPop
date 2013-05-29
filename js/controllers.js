@@ -38,7 +38,13 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 		$scope.changeLayer('continents');
 	};
 
-}]).
+	$scope.handleMapclick = function(e) {
+		// Call a generic select function so the controller can handle
+		// whatever future action is necessary to launch the simulator.
+		$scope.selectById(parseInt(e.target.feature.properties.CountryID));
+	};
+
+		}]).
 controller('HelpCtrl', ['$scope', '$http', function($scope, $http) {
 
 }]).

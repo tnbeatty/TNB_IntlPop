@@ -60,7 +60,7 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 					fillColor: "#BBB",
 					fillOpacity: 1
 				}
-			};
+			}
 
 			function onEachFeature(feature, layer) {
 				layer.on({
@@ -68,7 +68,7 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 					mouseout: resetHighlight,
 					click: handleMapclick
 				});
-			};
+			}
 
 			function highlightFeature(e) {
 				var layer = e.target;
@@ -81,18 +81,19 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 				if (!L.Browser.ie && !L.Browser.opera) {
 					layer.bringToFront();
 				}
-			};
+			}
 
 			function resetHighlight(e) {
 				scope.currentLayer.resetStyle(e.target);
-			};
+			}
 
 			function handleMapclick(e) {
 				// Call a generic select function so the controller can handle
 				// whatever future action is necessary to launch the simulator.
-				scope.selectById(parseInt(e.target.feature.properties.CountryID));
-			};
-			
+				scope.$apply(function() {
+					scope.selectById(e.target.feature.properties.CountryID);
+				});
+			}
 		}
 	};
 }]);
