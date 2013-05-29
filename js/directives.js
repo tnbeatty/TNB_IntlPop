@@ -22,7 +22,9 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 		link: function(scope, element, attrs) {
 
 			// Perform basic setup of the map
+			// var crs = L.CRS.Simple;
 			var map = L.map('map', {
+				// crs: crs,
 				center: [40.0, attrs.uiMapCenterLong], 
 				zoom: 1.2,
 				minZoom: 1.2,
@@ -81,10 +83,18 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 				if (!L.Browser.ie && !L.Browser.opera) {
 					layer.bringToFront();
 				}
+
+				scope.$apply(function() {
+					scope.mapHoverName = e.target.feature.properties.Name;
+				});
 			}
 
 			function resetHighlight(e) {
 				scope.currentLayer.resetStyle(e.target);
+
+				scope.$apply(function() {
+					scope.mapHoverName = '';
+				});
 			}
 
 			function handleMapclick(e) {

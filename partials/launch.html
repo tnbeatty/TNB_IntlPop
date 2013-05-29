@@ -12,7 +12,11 @@
 				<div class="row">
 
 					<div class="large-8 columns" onload="initMap()">
-						<div id="map" ui-map ui-map-zoom="2" ui-map-center-lat="25.0" ui-map-center-long="0.0"></div>
+						<div id="map-box">
+							<p id="hover-label">{{ mapHoverName }}</p>
+							<div id="map" ui-map ui-map-zoom="2" ui-map-center-lat="25.0" ui-map-center-long="0.0">
+							</div>
+						</div>
 						<!-- radio selection buttons -->
 						<ul class="inline-list">
 							<li><label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;" CHECKED><span class="custom radio checked" ng-click="changeLayer('Continents')"></span> Continents</label></li>
@@ -38,6 +42,7 @@
 				<div class="row">
 
 					<div class="large-8 columns">
+						<p><b>Currently Selected: </b>{{ countryName }}</p>
 					</div>
 
 					<div class="large-4 columns">

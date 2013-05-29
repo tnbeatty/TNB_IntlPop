@@ -18,21 +18,32 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 
 	// Default selection values
 	$scope.countryId = 900; // Select the world
-	$scope.query = "";
+	$scope.countryName = 'World'; // Display the country name
+	$scope.mapHoverName = '';
+	$scope.query = '';
+
+	$scope.$watch('countryId', function() { 
+		if (!$scope.countries) return;
+		for (var i = $scope.countries.length - 1; i >= 0; i--) {
+			if ($scope.countries[i].id == $scope.countryId) {
+				$scope.countryName = $scope.countries[i].alias;
+			}
+		};
+	});
 
 	$scope.launchSim = function() {
-		if ($scope.countryId && false) {
+		if ($scope.countryId) {
 			// launch the simulator
-			alert();
+			alert('Should simulate with country id: ' + $scope.countryId);
 		} else {
 			alert('Please select a region from the list or click on a location on the map before attempting to launch a simulation.');
 		}
 	}
 
 	$scope.selectById = function(id) {
-		console.log('Country selected: ' + id);
 		$scope.query = "";
 		$scope.countryId = parseInt(id);
+		console.log('Region selected from map: ' + id + ' - ' + $scope.countryName);
 	};
 
 	$scope.changeLayer = function(mapName) {

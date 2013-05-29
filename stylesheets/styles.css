@@ -11,38 +11,48 @@
 */
 /* global */
 /* country selection form */
-/* line 17, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 #ip-simbutton {
   margin: 0px;
   float: right;
 }
 
 /* map selection styles */
-/* line 23, ../sass/styles.scss */
-#map {
+/* line 31, ../sass/styles.scss */
+#map-box #hover-label {
+  color: #c02702;
+  position: absolute;
+  z-index: 100;
+  bottom: 40px;
+  padding: 5px;
+  opacity: 0.70;
+  background: #fff;
+}
+/* line 40, ../sass/styles.scss */
+#map-box #map {
   height: 450px;
   margin-bottom: 20px;
   background: #eee;
 }
 
 /* footer */
-/* line 33, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 footer {
   padding-bottom: 10px;
   color: #aaaaaa;
 }
-/* line 36, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 footer a {
   color: #aaaaaa;
   border-bottom: dashed 1px;
 }
-/* line 40, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 footer a:hover {
   color: #9d9d9d;
   border-bottom: dashed 1px;
 }
 
-/* line 47, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .ip-f-logo a {
   filter: gray;
   -webkit-filter: grayscale(1);
@@ -50,7 +60,7 @@ footer a:hover {
   /* Firefox 3.5+ */
   opacity: 0.5;
 }
-/* line 53, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 .ip-f-logo a:hover {
   filter: none;
   -webkit-filter: grayscale(0);

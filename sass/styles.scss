@@ -10,7 +10,14 @@
 * CSS classes and ID's have `ip` prefix to prevent conflicts.
 */
 
+// Working in ems is annoying. Think in pixels by using this handy function, emCalc(#px)
+@function emCalc($pxWidth) {
+	@return $pxWidth / $em-base * 1em;
+}
+
 /* global */
+
+$primary-color: #C02702;
 
 /* country selection form */
 
@@ -20,10 +27,21 @@
 }
 
 /* map selection styles */
-#map {
-    height: 450px; 
-    margin-bottom:20px;
-    background: #eee;
+#map-box {
+	#hover-label {
+		color: $primary-color;
+		position: absolute;
+		z-index: 100;
+		bottom: 40px;
+		padding: 5px;
+		opacity: 0.70;
+		background: #fff;
+	}
+	#map {
+		height: 450px; 
+		margin-bottom:20px;
+		background: #eee;
+	}
 }
 
 /* footer */
