@@ -15,5 +15,6 @@ config(['$routeProvider', function($routeProvider) {
 	when('/launch', {templateUrl: 'partials/launch.html', controller: 'LaunchCtrl'}).
 	when('/about', {templateUrl: 'partials/about.html', controller: 'AboutCtrl'}).
 	when('/help', {templateUrl: 'partials/help.html', controller: 'HelpCtrl'}).
+	when('/license', {templateUrl: 'partials/license.html', controller: 'LicenseCtrl'}).
 	otherwise({redirectTo: '/launch'});
 }]);

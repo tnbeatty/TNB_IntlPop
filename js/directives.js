@@ -26,7 +26,7 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 				center: [40.0, attrs.uiMapCenterLong], 
 				zoom: 1.2,
 				minZoom: 1.2,
-				maxZoom: 3
+				maxZoom: 6
 			});
 
 			// Define functions that allow the controller

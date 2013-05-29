@@ -17,8 +17,17 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 	});
 
 	// Default selection values
-	$scope.countryId = 900;
-	$scope.query = ""; 
+	$scope.countryId = 900; // Select the world
+	$scope.query = "";
+
+	$scope.launchSim = function() {
+		if ($scope.countryId && false) {
+			// launch the simulator
+			alert();
+		} else {
+			alert('Please select a region from the list or click on a location on the map before attempting to launch a simulation.');
+		}
+	}
 
 	$scope.selectById = function(id) {
 		console.log('Country selected: ' + id);
@@ -44,10 +53,16 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 		$scope.selectById(parseInt(e.target.feature.properties.CountryID));
 	};
 
-		}]).
+}]).
+controller('LicenseCtrl', ['$scope', '$http', function($scope, $http) {
+	$http.get('MIT-License.txt').success(function(data) {
+		$scope.licenseText = data;
+	});
+}]).
 controller('HelpCtrl', ['$scope', '$http', function($scope, $http) {
 
 }]).
 controller('AboutCtrl', ['$scope', '$http', function($scope, $http) {
 
 }]);
+
