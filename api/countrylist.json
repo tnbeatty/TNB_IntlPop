@@ -2,7 +2,7 @@
 		"filename": "2010_900.js",
 		"id": 900,
 		"name": "WORLD",
-		"alias": "WORLD"
+		"alias": "World"
 	}, {
 		"filename": "2010_901.js",
 		"id": 901,
@@ -37,7 +37,7 @@
 		"filename": "2010_903.js",
 		"id": 903,
 		"name": "AFRICA",
-		"alias": "AFRICA"
+		"alias": "Africa"
 	}, {
 		"filename": "2010_910.js",
 		"id": 910,
@@ -102,7 +102,7 @@
 		"filename": "2010_638.js",
 		"id": 638,
 		"name": "R\u00c3\u00a9union",
-		"alias": "R\u00c3\u00a9union"
+		"alias": "Reunion"
 	}, {
 		"filename": "2010_646.js",
 		"id": 646,
@@ -122,7 +122,7 @@
 		"filename": "2010_834.js",
 		"id": 834,
 		"name": "United Republic of Tanzania",
-		"alias": "United Republic of Tanzania"
+		"alias": "Tanzania"
 	}, {
 		"filename": "2010_894.js",
 		"id": 894,
@@ -167,7 +167,7 @@
 		"filename": "2010_180.js",
 		"id": 180,
 		"name": "Democratic Republic of the Congo",
-		"alias": "Democratic Republic of the Congo"
+		"alias": "Congo"
 	}, {
 		"filename": "2010_226.js",
 		"id": 226,
@@ -202,7 +202,7 @@
 		"filename": "2010_434.js",
 		"id": 434,
 		"name": "Libyan Arab Jamahiriya",
-		"alias": "Libyan Arab Jamahiriya"
+		"alias": "Libya"
 	}, {
 		"filename": "2010_504.js",
 		"id": 504,
@@ -277,7 +277,7 @@
 		"filename": "2010_384.js",
 		"id": 384,
 		"name": "C\u00c3\u00b4te d'Ivoire",
-		"alias": "C\u00c3\u00b4te d'Ivoire"
+		"alias": "Cote d'Ivoire"
 	}, {
 		"filename": "2010_270.js",
 		"id": 270,
@@ -342,7 +342,7 @@
 		"filename": "2010_935.js",
 		"id": 935,
 		"name": "ASIA",
-		"alias": "ASIA"
+		"alias": "Asia"
 	}, {
 		"filename": "2010_906.js",
 		"id": 906,
@@ -357,17 +357,17 @@
 		"filename": "2010_344.js",
 		"id": 344,
 		"name": "China, Hong Kong SAR",
-		"alias": "China, Hong Kong SAR"
+		"alias": "Hong Kong"
 	}, {
 		"filename": "2010_446.js",
 		"id": 446,
 		"name": "China, Macao SAR",
-		"alias": "China, Macao SAR"
+		"alias": "Macao"
 	}, {
 		"filename": "2010_408.js",
 		"id": 408,
 		"name": "Dem. People's Republic of Korea",
-		"alias": "Dem. People's Republic of Korea"
+		"alias": "North Korea"
 	}, {
 		"filename": "2010_392.js",
 		"id": 392,
@@ -382,12 +382,12 @@
 		"filename": "2010_410.js",
 		"id": 410,
 		"name": "Republic of Korea",
-		"alias": "Republic of Korea"
+		"alias": "South Korea"
 	}, {
 		"filename": "2010_158.js",
 		"id": 158,
 		"name": "Other non-specified areas",
-		"alias": "Other non-specified areas"
+		"alias": "Other areas"
 	}, {
 		"filename": "2010_921.js",
 		"id": 921,
@@ -452,7 +452,7 @@
 		"filename": "2010_364.js",
 		"id": 364,
 		"name": "Iran (Islamic Republic of)",
-		"alias": "Iran (Islamic Republic of)"
+		"alias": "Iran"
 	}, {
 		"filename": "2010_462.js",
 		"id": 462,
@@ -497,7 +497,7 @@
 		"filename": "2010_418.js",
 		"id": 418,
 		"name": "Lao People's Democratic Republic",
-		"alias": "Lao People's Democratic Republic"
+		"alias": "Laos"
 	}, {
 		"filename": "2010_458.js",
 		"id": 458,
@@ -592,7 +592,7 @@
 		"filename": "2010_275.js",
 		"id": 275,
 		"name": "Occupied Palestinian Territory",
-		"alias": "Occupied Palestinian Territory"
+		"alias": "Palestine"
 	}, {
 		"filename": "2010_512.js",
 		"id": 512,
@@ -612,7 +612,7 @@
 		"filename": "2010_760.js",
 		"id": 760,
 		"name": "Syrian Arab Republic",
-		"alias": "Syrian Arab Republic"
+		"alias": "Syria"
 	}, {
 		"filename": "2010_792.js",
 		"id": 792,
@@ -632,7 +632,7 @@
 		"filename": "2010_908.js",
 		"id": 908,
 		"name": "EUROPE",
-		"alias": "EUROPE"
+		"alias": "Europe"
 	}, {
 		"filename": "2010_923.js",
 		"id": 923,
@@ -667,7 +667,7 @@
 		"filename": "2010_498.js",
 		"id": 498,
 		"name": "Republic of Moldova",
-		"alias": "Republic of Moldova"
+		"alias": "Moldova"
 	}, {
 		"filename": "2010_642.js",
 		"id": 642,
@@ -677,7 +677,7 @@
 		"filename": "2010_643.js",
 		"id": 643,
 		"name": "Russian Federation",
-		"alias": "Russian Federation"
+		"alias": "Russia"
 	}, {
 		"filename": "2010_703.js",
 		"id": 703,
@@ -762,7 +762,7 @@
 		"filename": "2010_70.js",
 		"id": 70,
 		"name": "Bosnia and Herzegovina",
-		"alias": "Bosnia and Herzegovina"
+		"alias": "Bosnia"
 	}, {
 		"filename": "2010_191.js",
 		"id": 191,
@@ -812,7 +812,7 @@
 		"filename": "2010_807.js",
 		"id": 807,
 		"name": "TFYR Macedonia",
-		"alias": "TFYR Macedonia"
+		"alias": "Macedonia"
 	}, {
 		"filename": "2010_926.js",
 		"id": 926,
@@ -857,7 +857,7 @@
 		"filename": "2010_904.js",
 		"id": 904,
 		"name": "LATIN AMERICA AND THE CARIBBEAN",
-		"alias": "LATIN AMERICA AND THE CARIBBEAN"
+		"alias": "Latin America and the Caribbean"
 	}, {
 		"filename": "2010_915.js",
 		"id": 915,
@@ -917,7 +917,7 @@
 		"filename": "2010_530.js",
 		"id": 530,
 		"name": "Netherlands Antilles",
-		"alias": "Netherlands Antilles"
+		"alias": "Netherlands"
 	}, {
 		"filename": "2010_630.js",
 		"id": 630,
@@ -942,7 +942,7 @@
 		"filename": "2010_850.js",
 		"id": 850,
 		"name": "United States Virgin Islands",
-		"alias": "United States Virgin Islands"
+		"alias": "U.S. Virgin Islands"
 	}, {
 		"filename": "2010_916.js",
 		"id": 916,
@@ -1002,7 +1002,7 @@
 		"filename": "2010_68.js",
 		"id": 68,
 		"name": "Bolivia (Plurinational State of)",
-		"alias": "Bolivia (Plurinational State of)"
+		"alias": "Bolivia"
 	}, {
 		"filename": "2010_76.js",
 		"id": 76,
@@ -1057,12 +1057,12 @@
 		"filename": "2010_862.js",
 		"id": 862,
 		"name": "Venezuela (Bolivarian Republic of)",
-		"alias": "Venezuela (Bolivarian Republic of)"
+		"alias": "Venezuela"
 	}, {
 		"filename": "2010_905.js",
 		"id": 905,
 		"name": "NORTHERN AMERICA",
-		"alias": "NORTHERN AMERICA"
+		"alias": "North America"
 	}, {
 		"filename": "2010_124.js",
 		"id": 124,
@@ -1077,7 +1077,7 @@
 		"filename": "2010_909.js",
 		"id": 909,
 		"name": "OCEANIA",
-		"alias": "OCEANIA"
+		"alias": "Oceania"
 	}, {
 		"filename": "2010_927.js",
 		"id": 927,
@@ -1137,7 +1137,7 @@
 		"filename": "2010_583.js",
 		"id": 583,
 		"name": "Micronesia (Fed. States of)",
-		"alias": "Micronesia (Fed. States of)"
+		"alias": "Micronesia"
 	}, {
 		"filename": "2010_957.js",
 		"id": 957,

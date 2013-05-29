@@ -14,6 +14,11 @@
 
 	<script src="lib/vendor/custom.modernizr.js"></script>
 
+	<!-- Leaflet Support -->
+	<link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/leaflet.ie.css" /><![endif]-->
+	<script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+
 </head>
 <body>
 
@@ -33,7 +38,7 @@
 			</ul>
 			<section class="top-bar-section">
 				<ul class="right">
-					<li><a href="#/sim">Simulate</a></li>
+					<li><a href="#/sim">Simulation</a></li>
 					<li><a href="#/about">About</a></li>
 					<li><a href="#/help">Help</a></li>
 				</ul>
@@ -48,16 +53,16 @@
 			<hr>
 			<div class="row">
 				<div class="large-8 columns">
-					<p>Distributed under an <a href="#">MIT open source license</a>.</p>
+					<p>IntlPop! v<span app-version></span> | Distributed under an <a href="#">MIT license</a>.</p>
 				</div>
 				<div class="large-4 columns">
-				<div class="small-6 columns">
-					<img class="ip-f-logo" src="img/logo_midd.gif" />
+					<div class="small-6 columns">
+						<span class="ip-f-logo"><a href="#"><img class="ip-f-logo" src="img/logo_vt.gif" /></a></span>
+					</div>
+					<div class="small-6 columns">
+						<span class="ip-f-logo"><a href="#"><img class="ip-f-logo" src="img/logo_midd.gif" /></a></span>
+					</div>
 				</div>
-				<div class="small-6 columns">
-					<img class="ip-f-logo" src="img/logo_vt.gif" />
-				</div>
-			</div>
 			</div>
 		</div>
 	</footer>
@@ -68,7 +73,10 @@
 	<!--  <script src="//ajax.googleapis.com/ajax/libs/angularlib/1.0.6/angular.min.js"></script> -->
 	<script src="lib/angular/angular.min.js"></script>
 	<script src="js/app.js"></script>
+	<script src="js/services.js"></script>
 	<script src="js/controllers.js"></script>
+	<script src="js/filters.js"></script>
+	<script src="js/directives.js"></script>
 
 	<script>
 	document.write('<script src=' +
@@ -92,5 +100,6 @@
 	<script>
 	$(document).foundation();
 	</script>
+
 </body>
 </html>
