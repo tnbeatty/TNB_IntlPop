@@ -11,13 +11,7 @@
 /* Controllers */
 angular.module('IntlPopApp.controllers', []).
 controller('AppCtrl', ['$scope', '$location', function ($scope, $location) {
-	var location = $location.path().split('/')[1];
-	console.log('Location: ' + location);
-	if ($location.path().split('/')[1] == 'sim') {
-		$scope.isSimWindow = true;
-	} else {
-		$scope.isSimWindow = false;
-	}
+	$scope.isSimWindow = $location.path().split('/')[1] == 'sim';
 }]).
 controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 
@@ -28,8 +22,8 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 	// Default selection values
 	$scope.countryId = 900; // Select the world
 	$scope.countryName = 'World'; // Display the country name
-	$scope.mapHoverName = ''; // Should be blank to start
-	$scope.query = ''; // Should also be blank
+	$scope.mapHoverName; // Should be blank to start
+	$scope.query; // Should also be blank
 
 	$scope.$watch('countryId', function() { 
 		if (!$scope.countries) return;
@@ -42,7 +36,6 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 
 	$scope.launchSim = function() {
 		if ($scope.countryId) {
-			// launch the simulator
 			console.log('Launching simulator with country id: ' + $scope.countryId);
 			var simPath = '#/sim/' + $scope.countryId;
 			window.open(simPath, '_blank', 'height=300, width=1000, location=no, menubar=no');
@@ -52,10 +45,10 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 	}
 
 	$scope.changeLayer = function(mapName) {
-		$scope.removeCurrentLayer();
+		$scope.removeCurrentLayer(); // In the directive
 		var url = 'api/geojson/' + mapName.toLowerCase() + '.json';
 		$http.get(url).success(function(data) {
-			$scope.addGeoJsonLayer(data);
+			$scope.addGeoJsonLayer(data); // In the directive
 		});
 	};
 
@@ -81,6 +74,9 @@ controller('SimCtrl', ['$scope', '$http', '$routeParams', function ($scope, $htt
 	var dataPath = 'api/countrydata/2010_' + $scope.countryId + '.json';
 	$http.get(dataPath).success(function(data) {
 		$scope.country = data;
+	}).
+	error(function(data) {
+		alert('There was a problem finding the country data that you requested. This app is still in development - sorry about that!');
 	});
 }]);
 

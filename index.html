@@ -26,7 +26,7 @@
 
 	<!-- begin body content -->
 
-	<div class="contain-to-grid" ng-hide="isSimWindow">
+	<div class="contain-to-grid" ng-hide="isSimWindow" ng-cloak>
 		<nav class="top-bar">
 			<ul class="title-area">
 				<li class="name">
@@ -50,7 +50,7 @@
 
 	<div ng-view></div>
 
-	<footer class="row" ng-hide="isSimWindow">
+	<footer class="row" ng-hide="isSimWindow" ng-cloak>
 		<div class="large-12 columns">
 			<hr>
 			<div class="row">
@@ -81,6 +81,7 @@
 	<script src="js/directives.js"></script>
 
 	<script>
+	// Use zepto unless IE in which case use jquery
 	document.write('<script src=' +
 		('__proto__' in {} ? 'lib/vendor/zepto' : 'lib/vendor/jquery') +
 		'.js><\/script>')
