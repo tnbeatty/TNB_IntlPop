@@ -10,6 +10,15 @@
 
 /* Controllers */
 angular.module('IntlPopApp.controllers', []).
+controller('AppCtrl', ['$scope', '$location', function ($scope, $location) {
+	var location = $location.path().split('/')[1];
+	console.log('Location: ' + location);
+	if ($location.path().split('/')[1] == 'sim') {
+		$scope.isSimWindow = true;
+	} else {
+		$scope.isSimWindow = false;
+	}
+}]).
 controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 
 	$http.get('api/countrylist.json').success(function(data) {
@@ -19,8 +28,8 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 	// Default selection values
 	$scope.countryId = 900; // Select the world
 	$scope.countryName = 'World'; // Display the country name
-	$scope.mapHoverName = '';
-	$scope.query = '';
+	$scope.mapHoverName = ''; // Should be blank to start
+	$scope.query = ''; // Should also be blank
 
 	$scope.$watch('countryId', function() { 
 		if (!$scope.countries) return;
@@ -34,17 +43,13 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 	$scope.launchSim = function() {
 		if ($scope.countryId) {
 			// launch the simulator
-			alert('Should simulate with country id: ' + $scope.countryId);
+			console.log('Launching simulator with country id: ' + $scope.countryId);
+			var simPath = '#/sim/' + $scope.countryId;
+			window.open(simPath, '_blank', 'height=300, width=1000, location=no, menubar=no');
 		} else {
 			alert('Please select a region from the list or click on a location on the map before attempting to launch a simulation.');
 		}
 	}
-
-	$scope.selectById = function(id) {
-		$scope.query = "";
-		$scope.countryId = parseInt(id);
-		console.log('Region selected from map: ' + id + ' - ' + $scope.countryName);
-	};
 
 	$scope.changeLayer = function(mapName) {
 		$scope.removeCurrentLayer();
@@ -58,22 +63,24 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 		$scope.changeLayer('continents');
 	};
 
-	$scope.handleMapclick = function(e) {
-		// Call a generic select function so the controller can handle
-		// whatever future action is necessary to launch the simulator.
-		$scope.selectById(parseInt(e.target.feature.properties.CountryID));
-	};
-
 }]).
-controller('LicenseCtrl', ['$scope', '$http', function($scope, $http) {
+controller('LicenseCtrl', ['$scope', '$http', function ($scope, $http) {
 	$http.get('MIT-License.txt').success(function(data) {
 		$scope.licenseText = data;
 	});
 }]).
-controller('HelpCtrl', ['$scope', '$http', function($scope, $http) {
+controller('HelpCtrl', ['$scope', function ($scope) {
 
 }]).
-controller('AboutCtrl', ['$scope', '$http', function($scope, $http) {
+controller('AboutCtrl', ['$scope', function ($scope) {
 
+}]).
+controller('SimCtrl', ['$scope', '$http', '$routeParams', function ($scope, $http, $routeParams) {
+	$scope.countryId = $routeParams.countryId;
+
+	var dataPath = 'api/countrydata/2010_' + $scope.countryId + '.json';
+	$http.get(dataPath).success(function(data) {
+		$scope.country = data;
+	});
 }]);
 

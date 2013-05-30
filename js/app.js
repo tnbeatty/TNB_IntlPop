@@ -16,5 +16,6 @@ config(['$routeProvider', function($routeProvider) {
 	when('/about', {templateUrl: 'partials/about.html', controller: 'AboutCtrl'}).
 	when('/help', {templateUrl: 'partials/help.html', controller: 'HelpCtrl'}).
 	when('/license', {templateUrl: 'partials/license.html', controller: 'LicenseCtrl'}).
+	when('/sim/:countryId', {templateUrl: 'partials/simulate.html', controller: 'SimCtrl'}).
 	otherwise({redirectTo: '/launch'});
 }]);

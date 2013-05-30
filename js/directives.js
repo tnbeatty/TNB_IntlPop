@@ -101,7 +101,7 @@ directive('uiMap', ['$http', '$log', function($http, $log) {
 				// Call a generic select function so the controller can handle
 				// whatever future action is necessary to launch the simulator.
 				scope.$apply(function() {
-					scope.selectById(e.target.feature.properties.CountryID);
+					scope.countryId = parseInt(e.target.feature.properties.CountryID);
 				});
 			}
 		}
