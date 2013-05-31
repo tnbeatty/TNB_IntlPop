@@ -33,7 +33,7 @@ OUT_DIR = '../api/countrydata' # Where the JSON output files will be created
 
 # CSV FileNames (should be within the TMP_DIR)
 # Edit these filenames to reflect your own naming convention if necessary
-f_POPULATION_BY_AGE_MALE = 'POPULATION_BY_AGE_MALE.CSV'
+f_POPULATION_BY_AGE_MALE = 'POPULATION_BY_AGE_MALE.csv'
 f_POPULATION_BY_AGE_FEMALE = 'POPULATION_BY_AGE_FEMALE.CSV'
 f_DEATHS_BY_AGE_MALE = 'DEATHS_BY_AGE_MALE.CSV'
 f_DEATHS_BY_AGE_FEMALE = 'DEATHS_BY_AGE_FEMALE.CSV'
@@ -61,25 +61,23 @@ NET_NUMBER_OF_MIGRANTS = 'NET_NUMBER_OF_MIGRANTS'
 
 
 validYears = [2000, 2005, 2010]
+validOptions = ['-d', '-c']
 
 # Checks that command line arguments are valid
 # 
 # @return true if valid, false otherwise.
 def validArgs():
-  if len(sys.argv) not in [2, 3] or int(sys.argv[-1]) not in validYears:
+  if len(sys.argv) not in [2, 3, 4] or int(sys.argv[-1]) not in validYears:
     return False
-  if len(sys.argv) == 3 and sys.argv[1] != '-d':
+  if len(sys.argv) == 3 and sys.argv[1] not in validOptions:
+    return False
+  if len(sys.argv) == 4 and sys.argv[2] not in validOptions:
     return False
   return True
 
 # Prints a usage message
 def printUsage():
   print('Usage: python parseData date\nDate can be 2000, 2005, or 2010.')
-
-# Prints an informational message to the console
-# appending "IntlPop!: " to each line.
-def printMessage(message):
-  print('IntlPop!: ' + str(message))
 
 # Takes a string of numerical characters and removes spaces, etc.
 # to turn them into proper integers. Returns an int value
@@ -98,7 +96,7 @@ def intify(value):
 
 def removeTmpFiles():
   if os.path.exists(TMP_DIR):
-    printMessage('Removing old temp files.')
+    print('Removing old temp files.')
     for the_file in os.listdir(TMP_DIR):
       file_path = os.path.join(TMP_DIR, the_file)
       try:
@@ -109,10 +107,10 @@ def removeTmpFiles():
         exit(1)
   else:
     try:
-      printMessage('Creating temp directory at ' + TMP_DIR)
+      print('Creating temp directory at ' + TMP_DIR)
       os.makedirs(TMP_DIR)
     except:
-      printMessage('Could not generate output file directory.')
+      print('Could not generate output file directory.')
       exit(1)
 
 
@@ -139,6 +137,19 @@ def downloadXLSData():
       f.close()
       print('')
 
+  # make sure the files are valid
+  for item in UNDataFiles:
+    file_path = os.path.join(TMP_DIR, item[0] + '.xls')
+    try:
+      file_size = os.path.getsize(file_path)
+    except:
+      print('There was a problem downloading the data files.')
+      exit(1)
+    if file_size <= 0:
+      print('There was a problem downloading the data files.')
+      exit(1)
+
+
 def makeCSVFiles():
   for item in UNDataFiles:
     print('Generating CSV file for ' + item[0])
@@ -163,7 +174,7 @@ def makeCSVFiles():
 def generateFiles(year):
   # Create output directory
   if os.path.exists(OUT_DIR):
-    printMessage('Removing old data files.')
+    print('Removing old data files.')
     for the_file in os.listdir(OUT_DIR):
       file_path = os.path.join(OUT_DIR, the_file)
       try:
@@ -174,13 +185,13 @@ def generateFiles(year):
         exit(1)
   else:
     try:
-      printMessage('Creating output directory at ' + OUT_DIR)
+      print('Creating output directory at ' + OUT_DIR)
       os.makedirs(OUT_DIR)
     except:
-      printMessage('Could not generate output file directory.')
+      print('Could not generate output file directory.')
       exit(1)
   
-  printMessage('Generating files for year %s data.' % (str(year)))
+  print('Generating files for year %s data.' % (str(year)))
   # Make a file for each country based on the male population data
   dataFile = codecs.open(os.path.join(TMP_DIR, f_POPULATION_BY_AGE_MALE), 'r', encoding='latin1')
   data = csv.reader(dataFile)
@@ -213,7 +224,7 @@ def generateFiles(year):
 # an integer equal to either 2000, 2005, or 2010.
 def appendPopData(year):
   # Start with male population
-  printMessage('Parsing male population data.')
+  print('Parsing male population data.')
   dataFile = codecs.open(os.path.join(TMP_DIR, f_POPULATION_BY_AGE_MALE), 'r', encoding='latin1')
   data = csv.reader(dataFile)
   for row in data:
@@ -231,7 +242,7 @@ def appendPopData(year):
       f.close()
   dataFile.close()
   # Now fill in the female population
-  printMessage('Parsing female population data.')
+  print('Parsing female population data.')
   dataFile = codecs.open(os.path.join(TMP_DIR, f_POPULATION_BY_AGE_FEMALE), 'r', encoding='latin1')
   data = csv.reader(dataFile)
   for row in data:
@@ -257,7 +268,7 @@ def appendPopData(year):
 # an integer equal to either 2000, 2005, or 2010.
 def appendBirthData(year):
   # Parse through the birth data and append it to the file
-  printMessage('Parsing birth data.')
+  print('Parsing birth data.')
   dataFile = codecs.open(os.path.join(TMP_DIR, f_BIRTHS_BY_AGE_OF_MOTHER), 'r', encoding='latin1')
   data = csv.reader(dataFile)
   for row in data:
@@ -282,7 +293,7 @@ def appendBirthData(year):
 # an integer equal to either 2000, 2005, or 2010.
 def appendMortalityData(year):
   # Start with the female mortality data
-  printMessage('Parsing female mortality data.')
+  print('Parsing female mortality data.')
   dataFile = codecs.open(os.path.join(TMP_DIR, f_DEATHS_BY_AGE_FEMALE), 'r', encoding='latin1')
   data = csv.reader(dataFile)
   for row in data:
@@ -301,7 +312,7 @@ def appendMortalityData(year):
   dataFile.close()
 
   # Now parse and append the male mortality data
-  printMessage('Parsing male mortality data.')
+  print('Parsing male mortality data.')
   dataFile = codecs.open(os.path.join(TMP_DIR, f_DEATHS_BY_AGE_MALE), 'r', encoding='latin1')
   data = csv.reader(dataFile)
   for row in data:
@@ -320,7 +331,7 @@ def appendMortalityData(year):
   dataFile.close()
 
   # Now parse and append the infant mortality data
-  printMessage('Parsing infant mortality data.')
+  print('Parsing infant mortality data.')
   dataFile = codecs.open(os.path.join(TMP_DIR, f_IMR_BOTH_SEXES), 'r', encoding='latin1')
   data = csv.reader(dataFile)
   for row in data:
@@ -334,7 +345,7 @@ def appendMortalityData(year):
   dataFile.close()
 
 def appendMigrationData(year):
-  printMessage('Parsing migration data.')
+  print('Parsing migration data.')
   dataFile = codecs.open(os.path.join(TMP_DIR, f_NET_NUMBER_OF_MIGRANTS), 'r', encoding='latin1')
   data = csv.reader(dataFile)
   for row in data:
@@ -350,7 +361,7 @@ def appendMigrationData(year):
 # Iterates through all of the files in the output directory
 # and closes them all with an unindented right curly brace
 def endFiles():
-  printMessage('Finishing up country files.')
+  print('Finishing up country files.')
   for fileName in os.listdir(OUT_DIR):
     f = open(os.path.join(OUT_DIR, fileName), 'a')
     f.write('}\n')
@@ -361,7 +372,7 @@ def endFiles():
 #################################
 
 def createCountryList(year):
-  printMessage('Generating the country json.')
+  print('Generating the country list json.')
 
   countries = []
   
@@ -392,16 +403,21 @@ def createCountryList(year):
 #  Main Program  #
 ##################
 
+print('\nIntlPop! Data File Generator\n============================\n')
+
 if not validArgs():
   printUsage()
   quit() # Stop program execution if a valid date is not provided
 
 dataYear = int(sys.argv[-1])
 
-if sys.argv[1] == '-d':
+if '-d' in sys.argv:
   removeTmpFiles()
   downloadXLSData()
   makeCSVFiles()
+
+if '-c' in sys.argv:
+  createCountryList(dataYear)
 
 generateFiles(dataYear) # Start the files
 # Add data
@@ -411,4 +427,4 @@ appendMortalityData(dataYear)
 appendMigrationData(dataYear)
 endFiles() # End the files
 
-createCountryList(dataYear)
+print()
