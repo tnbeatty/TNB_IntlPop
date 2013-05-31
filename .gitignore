@@ -6,3 +6,7 @@
 
 # Test Server Files
 web_server.js
+
+# Data Files
+tools/tmp
+api/countrydata/
