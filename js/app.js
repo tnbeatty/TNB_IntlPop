@@ -9,7 +9,7 @@
 'use strict';
 
 // Declare app level module which depends on controllers
-angular.module('IntlPopApp', ['IntlPopApp.controllers', 'IntlPopApp.directives', 'IntlPopApp.filters', 'IntlPopApp.services']).
+angular.module('IntlPopApp', ['IntlPopApp.controllers', 'IntlPopApp.directives']).
 config(['$routeProvider', function($routeProvider) {
 	$routeProvider.
 	when('/launch', {templateUrl: 'partials/launch.html', controller: 'LaunchCtrl'}).

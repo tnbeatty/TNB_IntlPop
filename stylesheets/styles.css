@@ -19,7 +19,7 @@
 
 /* map selection styles */
 /* line 31, ../sass/styles.scss */
-#map-box #hover-label {
+#ip-map-box #hover-label {
   color: #c02702;
   position: absolute;
   z-index: 100;
@@ -29,30 +29,37 @@
   background: #fff;
 }
 /* line 40, ../sass/styles.scss */
-#map-box #map {
+#ip-map-box #map {
   height: 450px;
   margin-bottom: 20px;
   background: #eee;
 }
 
+/* sim window styles */
+/* line 49, ../sass/styles.scss */
+.ip-sim-title {
+  color: #c02702;
+  text-align: center;
+}
+
 /* footer */
-/* line 51, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 footer {
   padding-bottom: 10px;
   color: #aaaaaa;
 }
-/* line 54, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 footer a {
   color: #aaaaaa;
   border-bottom: dashed 1px;
 }
-/* line 58, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 footer a:hover {
   color: #9d9d9d;
   border-bottom: dashed 1px;
 }
 
-/* line 65, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 .ip-f-logo a {
   filter: gray;
   -webkit-filter: grayscale(1);
@@ -60,7 +67,7 @@ footer a:hover {
   /* Firefox 3.5+ */
   opacity: 0.5;
 }
-/* line 71, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .ip-f-logo a:hover {
   filter: none;
   -webkit-filter: grayscale(0);

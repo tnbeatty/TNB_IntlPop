@@ -27,7 +27,7 @@ $primary-color: #C02702;
 }
 
 /* map selection styles */
-#map-box {
+#ip-map-box {
 	#hover-label {
 		color: $primary-color;
 		position: absolute;
@@ -42,6 +42,13 @@ $primary-color: #C02702;
 		margin-bottom:20px;
 		background: #eee;
 	}
+}
+
+/* sim window styles */
+
+.ip-sim-title {
+	color: $primary-color;
+	text-align: center;
 }
 
 /* footer */
