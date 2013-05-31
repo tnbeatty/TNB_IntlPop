@@ -33,7 +33,7 @@ OUT_DIR = '../api/countrydata' # Where the JSON output files will be created
 
 # CSV FileNames (should be within the TMP_DIR)
 # Edit these filenames to reflect your own naming convention if necessary
-f_POPULATION_BY_AGE_MALE = 'POPULATION_BY_AGE_MALE.csv'
+f_POPULATION_BY_AGE_MALE = 'POPULATION_BY_AGE_MALE.CSV'
 f_POPULATION_BY_AGE_FEMALE = 'POPULATION_BY_AGE_FEMALE.CSV'
 f_DEATHS_BY_AGE_MALE = 'DEATHS_BY_AGE_MALE.CSV'
 f_DEATHS_BY_AGE_FEMALE = 'DEATHS_BY_AGE_FEMALE.CSV'
@@ -121,9 +121,14 @@ def downloadXLSData():
     with open(file_path, "wb") as f:
       print("Downloading %s" % item[0])
       response = requests.get(file_url, stream=True)
-      total_length = response.headers.get('content-length')
+      total_length = intify(response.headers.get('content-length'))
+      encoding = response.headers.get('content-encoding')
+      cache_control = response.headers.get('cache-control')
 
-      if total_length is None: # no content length header
+      if total_length is None:
+        f.write(response.content)
+      elif encoding == 'gzip' or cache_control == 'private':
+        print(' Some fields in the response headers were invalid.\n Attempting to download anyway.')
         f.write(response.content)
       else:
         dl = 0
@@ -136,10 +141,12 @@ def downloadXLSData():
           sys.stdout.flush()
       f.close()
       print('')
-
   # make sure the files are valid
   for item in UNDataFiles:
     file_path = os.path.join(TMP_DIR, item[0] + '.xls')
+    if not os.path.exists(file_path) or not os.path.isfile(file_path):
+      print('Some data files were not downloaded.')
+      exit(1)
     try:
       file_size = os.path.getsize(file_path)
     except:

@@ -38,7 +38,7 @@ controller('LaunchCtrl', ['$scope', '$http', function($scope, $http) {
 		if ($scope.countryId) {
 			console.log('Launching simulator with country id: ' + $scope.countryId);
 			var simPath = '#/sim/' + $scope.countryId;
-			window.open(simPath, '_blank', 'height=300, width=1000, location=no, menubar=no');
+			window.open(simPath, '_blank', 'height=375, width=1000, location=no, menubar=no');
 		} else {
 			alert('Please select a region from the list or click on a location on the map before attempting to launch a simulation.');
 		}
@@ -74,9 +74,17 @@ controller('SimCtrl', ['$scope', '$http', '$routeParams', function ($scope, $htt
 	var dataPath = 'api/countrydata/2010_' + $scope.countryId + '.json';
 	$http.get(dataPath).success(function(data) {
 		$scope.country = data;
-	}).
-	error(function(data) {
+		// Add the country alias to the country object
+		$http.get('api/countrylist.json').success(function(countrydata) {
+			for (var i = countrydata.length - 1; i >= 0; i--) {
+				if (countrydata[i].id == $scope.country.countryId) {
+					$scope.country.alias = countrydata[i].alias;
+				}
+			};
+		});
+	}).error(function(data) {
 		alert('There was a problem finding the country data that you requested. This app is still in development - sorry about that!');
 	});
+	
 }]);
 

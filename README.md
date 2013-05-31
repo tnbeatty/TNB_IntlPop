@@ -48,8 +48,6 @@ You will need to generate data files that are readable by the web app before you
 
 NOTE: Make sure that you are using python v3.1 or better.
 
-
-
 Code Structure
 ---
 

@@ -18,7 +18,7 @@ directive('appVersion', ['version', function(version) {
 }]).
 directive('uiMap', ['$http', '$log', function($http, $log) {
 	return {
-		restrict: 'EAC',
+		restrict: 'A',
 		link: function(scope, element, attrs) {
 
 			// Perform basic setup of the map
