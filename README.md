@@ -9,6 +9,47 @@ Overview
 Project home for HTML5/JavaScript International Population simulation
 for introductory geography courses.
 
+### Web Server
+
+Make sure that you serve the files using a web server to get everything to work properly. Simply opening up the static file index.html on your computer's browser won't cut it. If you have python installed, you can run `python -m SimpleHTTPServer` in the root directory of the app and then point your browser to `http://127.0.0.1:8000/` or `http://localhost:8000`. Otherwise, you can use an apache server, node server, or just about any other kind of server you can think of... go wild.
+
+Data Generation
+---
+
+Data for this project comes from comes from the UN's [World Population Prospects](http://esa.un.org/unpd/wpp/index.htm) database. Because the data files are so large, we have chosen not to redistribute them ourselves. Links to the raw Excel [XLS] files can be found below:
+
+* [Pop - Female](http://esa.un.org/unpd/wpp/Excel-Data/DB03_Population_ByAgeSex_Quinquennial/WPP2010_DB3_F3_POPULATION_BY_AGE_FEMALE.XLS)
+* [Pop - Male](http://esa.un.org/unpd/wpp/Excel-Data/DB03_Population_ByAgeSex_Quinquennial/WPP2010_DB3_F2_POPULATION_BY_AGE_MALE.XLS)
+* [Deaths - Female](http://esa.un.org/unpd/wpp/Excel-Data/DB05_Mortality_IndicatorsByAge/WPP2010_DB5_F3_DEATHS_BY_AGE_FEMALE.XLS)
+* [Deaths - Male](http://esa.un.org/unpd/wpp/Excel-Data/DB05_Mortality_IndicatorsByAge/WPP2010_DB5_F2_DEATHS_BY_AGE_MALE.XLS)
+* [Births](http://esa.un.org/unpd/wpp/Excel-Data/DB06_Fertility_IndicatorsByAge/WPP2010_DB6_F1_BIRTHS_BY_AGE_OF_MOTHER.XLS)
+* [Net Migrants](http://esa.un.org/unpd/wpp/Excel-Data/DB01_Period_Indicators/WPP2010_DB1_F19_NET_NUMBER_OF_MIGRANTS.XLS)
+* [Infant Mortality](http://esa.un.org/unpd/wpp/Excel-Data/DB01_Period_Indicators/WPP2010_DB1_F06_1_IMR_BOTH_SEXES.XLS)
+
+You will need to generate data files that are readable by the web app before you can run it locally. There are two ways to do this:
+
+1. Download manually.
+	1. Download the files listed above.
+	2. Export them to the CSV format using Microsoft Excel or Macintosh Numbers.
+	3. Rename the CSV files respectively as follows:
+		* POPULATION_BY_AGE_FEMALE.CSV
+		* POPULATION_BY_AGE_MALE.CSV
+		* DEATHS_BY_AGE_FEMALE.CSV
+		* DEATHS_BY_AGE_MALE.CSV
+		* BIRTHS_BY_AGE_OF_MOTHER.CSV
+		* NET_NUMBER_OF_MIGRANTS.CSV
+		* IMR_BOTH_SEXES.CSV
+	4. Make a new directory in `tools` called `tmp` and move all of the csv files into this folder.
+	5. From within the `tools` directory, run `$ python generateData.py -c 2010`.
+
+2. Download using the python script.
+	1. In a new terminal window, `cd` into the tools directory.
+	2. Run `$ python generateData.py -d -c 2010`
+
+NOTE: Make sure that you are using python v3.1 or better.
+
+
+
 Code Structure
 ---
 
