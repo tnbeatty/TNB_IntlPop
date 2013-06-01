@@ -1,7 +1,9 @@
-IntlPop! 3.0 - Test Version
+IntlPop 3.0 - Test Version
 ===
 
-This is a test version of IntlPop! 3.0 modified from [the original](https://github.com/cashaffer/IntlPop) by IntlPop! project collaborator, [Nate Beatty](http://natebeatty.com).
+This is a test version of IntlPop 3.0 modified from [the original](https://github.com/cashaffer/IntlPop) by IntlPop project collaborator, [Nate Beatty](http://natebeatty.com).
+
+Note: Work on this iteration of IntlPop has been discontinued as of 6/1/13. The current working code repository can be found [here](https://github.com/cashaffer/IntlPop).
 
 Overview
 ---
@@ -51,7 +53,7 @@ NOTE: Make sure that you are using python v3.1 or better.
 Code Structure
 ---
 
-Although the app is relatively simple, we use some of the basic features of Angular JS and a straightforward directory system to give the code some structure. Ultimately, this should be tremendously helpful as we add features and as other programmers continue to contribute to the development of IntlPop!.
+Although the app is relatively simple, we use some of the basic features of Angular JS and a straightforward directory system to give the code some structure. Ultimately, this should be tremendously helpful as we add features and as other programmers continue to contribute to the development of IntlPop.
 
 ### /api
 
@@ -96,7 +98,7 @@ It is inadvisable to edit the CSS directly. It would be better edit the SCSS pro
 
 ### Angular JS
 
-This version of IntlPop! is a SVA built on Google's [AngularJS](http://angularjs.org) framework. It is fast, organized, and has a structure that will be familiar to most modern web application developers. This means that it will be easily edited and new features can be added quickly in the future.
+This version of IntlPop is a SVA built on Google's [AngularJS](http://angularjs.org) framework. It is fast, organized, and has a structure that will be familiar to most modern web application developers. This means that it will be easily edited and new features can be added quickly in the future.
 
 ### Raphael
 
